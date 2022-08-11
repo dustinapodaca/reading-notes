@@ -1,5 +1,3 @@
-[<== Home](README.md) 🏠
-
 # Code Fellows - Foundations of Software Development
 
 > Code 201 Reading Notes
@@ -8,7 +6,6 @@
 
 ---
 
-'''
 > ### Table of Contents
 
 ## Reading Notes
@@ -42,5 +39,4 @@
 [Class_14]
 
 [Class_15]
-'''
 
