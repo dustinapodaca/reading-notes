@@ -2,7 +2,7 @@
 
 > Code 201 Reading Notes - 
 
-## || 201 + 301 + 401 Java [!(https://www.svgrepo.com/show/184143/java.svg)] ||
+## || 201 + 301 + 401 Java ![Java logo](https://www.svgrepo.com/show/184143/java.svg) ||
 
 ---
 
