@@ -2,7 +2,7 @@
 
 > Code 201 Reading Notes
 
-<h2 align="center">// 201 + 301 + 401 Java Learning Track //</h2>
+<h2 align="center">|| 201 + 301 + 401 Java ||</h2>
 
 ---
 
