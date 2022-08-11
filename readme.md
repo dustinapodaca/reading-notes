@@ -2,7 +2,7 @@
 
 > Code 201 Reading Notes - 
 
-## || 201 + 301 + 401 Java <img src="https://www.svgrepo.com/show/184143/java.svg"  width="30" height="30"> ||
+## || 201 + 301 + 401 Java <img src="https://www.svgrepo.com/show/184143/java.svg"  width="20" height="20"> ||
 
 ---
 
