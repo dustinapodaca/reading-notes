@@ -10,34 +10,34 @@
 
 ## Reading Notes
 
-[Class_1]
+[Class - 1]
 
-[Class_2]
+[Class - 2]
 
-[Class_3]
+[Class - 3]
 
-[Class_4]
+[Class - 4]
 
-[Class_5]
+[Class - 5]
 
-[Class_6]
+[Class - 6]
 
-[Class_7]
+[Class - 7]
 
-[Class_8]
+[Class - 8]
 
-[Class_9]
+[Class - 9]
 
-[Class_10]
+[Class - 10]
 
-[Class_11]
+[Class - 11]
 
-[Class_12]
+[Class - 12]
 
-[Class_13]
+[Class - 13]
 
-[Class_14]
+[Class - 14]
 
-[Class_15]
+[Class - 15]
 
 ---
