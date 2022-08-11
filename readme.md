@@ -8,7 +8,7 @@
 
 > ### Table of Contents
 
-## Reading Notes
+#### Reading Notes from August 15 - September 9:
 
 [Class - 1]
 
