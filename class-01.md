@@ -17,9 +17,9 @@
 
 - In the context of the Web, parsing most commonly happens when a web browser receives the files that comprise a website. Every web browser is equipped with a rendering engine that converts the files into the web page you see in your browser. The rendering engine contains several parsers – the part of the program that parses code prior to rendering the web page. There is a different parser for every language. At a minimum, any modern browser can parse HTML, CSS, and JavaScript.
 
-- When browsers send requests to servers for HTML files, those HTML files often contain <link-> elements referencing external CSS stylesheets and <script> elements referencing external JavaScript scripts. It's important to know the order in which those files are parsed by the browser as the browser loads the page:
+- When browsers send requests to servers for HTML files, those HTML files often contain <link.> elements referencing external CSS stylesheets and <script> elements referencing external JavaScript scripts. It's important to know the order in which those files are parsed by the browser as the browser loads the page:
 
-  1. The browser parses the HTML file first, and that leads to the browser recognizing any <link->element references to external CSS stylesheets and any <script>-element references to scripts.
+  1. The browser parses the HTML file first, and that leads to the browser recognizing any <link.> element references to external CSS stylesheets and any <script>-element references to scripts.
   2. As the browser parses the HTML, it sends requests back to the server for any CSS files it has found from <link-> elements, and any JavaScript files it has found from <script> elements, and from those, then parses the CSS and JavaScript.
   3. The browser generates an in-memory DOM tree from the parsed HTML, generates an in-memory CSSOM structure from the parsed CSS, and compiles and executes the parsed JavaScript.
   4. As the browser builds the DOM tree and applies the styles from the CSSOM tree and executes the JavaScript, a visual representation of the page is painted to the screen, and the user sees the page content and can begin to interact with it.
