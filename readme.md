@@ -10,7 +10,7 @@
 
 ### Reading Notes from August 15 - September 9:
 
-- [Class - 1] (class-01.md)
+- [Class - 1] (/class-01.md)
 
 - [Class - 2]
 
