@@ -7,7 +7,7 @@
 ---
 
 > ## Table of Contents
-```
+
 ### Reading Notes from August 15 - September 9:
 
 - [Class Notes 01](https://github.com/dustinapodaca/reading-notes/blob/main/class-01.md)
@@ -39,5 +39,5 @@
 - [Class - 14]
 
 - [Class - 15]
-```
+
 ---
