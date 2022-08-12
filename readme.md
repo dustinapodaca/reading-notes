@@ -1,6 +1,4 @@
-<img src="https://members-csforall.imgix.net/members/logos/code-fellows-logo-horizontal-2-color-black.png" width="340" height="65" align="left">  
-
-
+<img src="https://members-csforall.imgix.net/members/logos/code-fellows-logo-horizontal-2-color-black.png" width="340" height="65" align="middle">  
 
 # ||  Foundations of Software Development ||
 
