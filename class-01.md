@@ -1,6 +1,10 @@
 # Code 201 Reading Notes
 
 ## Class 01 Reading Notes
+> Why this topic matters? - It is important to have a base understanding of how the internet works. HTML, CSS, and JS are the code files from which websites are primarily built. Understanding the roles that each play is essential to becoming a programmer or web developer. 
+  - **HTML** - creates the structure i.e. the backbone.
+  - **CSS** - stylizes the website or makes it look good.
+  - **JavaScript** - increases interactivity; handles more complex functions and features and enhances site functionality.
 ---
 
 ### Notes
