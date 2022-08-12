@@ -1,4 +1,4 @@
-# <img src="https://ce.seattlecentral.edu/sites/conted/files/inline-images/code-fellows-logo-compact-2-color-1.png"  width="125" height="40"> - Foundations of Software Development
+# <img src="https://ce.seattlecentral.edu/sites/conted/files/inline-images/code-fellows-logo-compact-2-color-1.png"  width="125" height="34"> - Foundations of Software Development
 
 > Code 201 Reading Notes - 
 
