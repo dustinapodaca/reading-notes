@@ -35,7 +35,16 @@
   
 ```
 1. Compose a short poem describing how HTTP sends data between computers.
-  - 
+  
+  An HTTP Haiku
+  - Browser help me find
+    Per your request, here you go
+    A copy to view
+  
+  - Browser help me find
+    Per your request, a copy
+    Displayed just for you
+    
 2. Describe how HTML, CSS, and JS files are “parsed” in the browser.
   
   - The browser parses the HTML file first and locates any link or script elements. 
@@ -44,7 +53,10 @@
     the JavaScript where a visual representation of the page appears on the screen.
   
 3. How can you find images to add to a Website?
-  -
+  
+  - One can always go to Google Images and search for a suitable image. You can then copy the image URL
+    and save it for future use. 
+  
 4. How do you create a String vs a Number in JavaScript?
   -
 5. What is a Variable and why are they important in JavaScript?
