@@ -32,7 +32,10 @@
 1. Compose a short poem describing how HTTP sends data between computers.
   - 
 2. Describe how HTML, CSS, and JS files are “parsed” in the browser.
-  - The browser parses the HTML file first and locates any link or script elements. From there requests are sent back to the server for the CSS and JavaScript files and parses those next. The browser then generates an in-memory DOM tree and applies the styles from the CSSOM tree and executes the JavaScript where a visual representation of the page appears on the screen.
+  - The browser parses the HTML file first and locates any link or script elements. 
+  From there requests are sent back to the server for the CSS and JavaScript files and parses those next. 
+  The browser then generates an in-memory DOM tree and applies the styles from the CSSOM tree and executes 
+  the JavaScript where a visual representation of the page appears on the screen.
 3. How can you find images to add to a Website?
   -
 4. How do you create a String vs a Number in JavaScript?
