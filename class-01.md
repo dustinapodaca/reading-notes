@@ -24,7 +24,7 @@
   - The browser generates an in-memory DOM tree from the parsed HTML, generates an in-memory CSSOM structure from the parsed CSS, and compiles and executes the parsed JavaScript.
   - As the browser builds the DOM tree and applies the styles from the CSSOM tree and executes the JavaScript, a visual representation of the page is painted to the screen, and the user sees the page content and can begin to interact with it.
 
-- The **<link>** HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets
+- The <link> HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets
 
 - The **<script>** HTML element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code.
   
