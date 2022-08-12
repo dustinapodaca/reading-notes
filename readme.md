@@ -1,5 +1,7 @@
 <img src="https://members-csforall.imgix.net/members/logos/code-fellows-logo-horizontal-2-color-black.png" width="340" height="65" align="right">  
 
+
+
 # ||  Foundations of Software Development ||
 
 > Code 201 Reading Notes - 
