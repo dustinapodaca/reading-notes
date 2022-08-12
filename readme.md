@@ -1,4 +1,4 @@
-# Code Fellows - Foundations of Software Development
+# <img src="[https://www.svgrepo.com/show/184143/java.svg](https://ce.seattlecentral.edu/sites/conted/files/inline-images/code-fellows-logo-compact-2-color-1.png)"  width="200" height="50"> - Foundations of Software Development
 
 > Code 201 Reading Notes - 
 
