@@ -5,6 +5,7 @@
 >  - **HTML** - creates the structure i.e. the backbone.
 >  - **CSS** - stylizes the website or makes it look good.
 >  - **JavaScript** - increases interactivity; handles more complex functions and features and enhances site functionality.
+>  
 ---
 
 ### Notes
