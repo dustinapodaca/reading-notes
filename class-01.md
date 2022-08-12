@@ -16,7 +16,7 @@
 - **Parsing:** Parsing is the process of breaking down code into individual chunks of code, verifying that all necessary inputs are included in the code, and acting on the instructions dictated by the code.
 
 - In the context of the Web, parsing most commonly happens when a web browser receives the files that comprise a website. Every web browser is equipped with a rendering engine that converts the files into the web page you see in your browser. The rendering engine contains several parsers – the part of the program that parses code prior to rendering the web page. There is a different parser for every language. At a minimum, any modern browser can parse HTML, CSS, and JavaScript.
-```
+
 - When browsers send requests to servers for HTML files, those HTML files often contain <link> elements referencing external CSS stylesheets and <script> elements referencing external JavaScript scripts. It's important to know the order in which those files are parsed by the browser as the browser loads the page:
 
   1. The browser parses the HTML file first, and that leads to the browser recognizing any <link>-element references to external CSS stylesheets and any <script>-element references to scripts.
@@ -27,7 +27,7 @@
 - The <link> HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets
 
 - The <script> HTML element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code.
-```  
+  
 ```
 1. Compose a short poem describing how HTTP sends data between computers.
   - 
