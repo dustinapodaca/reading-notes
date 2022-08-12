@@ -40,8 +40,10 @@
   - Browser help me find
     Per your request, here you go
     A copy to view
-  
-  - Browser help me find
+ 
+ or
+ 
+  - Browser find my site
     Per your request, a copy
     Displayed just for you
     
