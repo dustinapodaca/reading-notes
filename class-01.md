@@ -248,7 +248,7 @@ How can you add JavaScript to an HTML document?
 ## Things I Want to Know More About
 
 - Variables, Functions, Operators in JS
-- Memorize HTML syntax
+- Memorize HTML syntax, elements, and attributes
 - Structuring metadata for SEO optimization with Google Search Engine
 - Version Control and git
-- 
+- JS syntax and structure
