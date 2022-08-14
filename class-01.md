@@ -126,9 +126,9 @@ Refer to each member of the array like this:
   - i.e. `<p>My cat is <strong>very</strong> grumpy.</p>`
 - **Block vs. Inline**
   - Block-level elements form a visible block on a page. A block-level element appears on a new line following the content that precedes it. Any content that follows a block-level element also appears on a new line. Block-level elements are usually structural elements on the page. For example, a block-level element might represent headings, paragraphs, lists, navigation menus, or footers.
-   - i.e `<p>fourth</p><p>fifth</p><p>sixth</p>`
-  - Inline elements are contained within block-level elements, and surround only small parts of the document's content (not entire paragraphs or groupings of content). An inline element will not cause a new line to appear in the document. It is typically used with text, for example an `<a>` element creates a hyperlink, and elements such as `<em>` or `<strong>`create emphasis.
-   - i.e. `<em>first</em><em>second</em><em>third</em>`
+  > i.e `<p>fourth</p><p>fifth</p><p>sixth</p>`
+  - Inline elements are contained within block-level elements, and surround only small parts of the document's content (not entire paragraphs or groupings of content). An inline element will not cause a new line to appear in the document. It is typically used with text, for example an `<a>` element creates a hyperlink, and elements such as `<em>` or `<strong>`create emphasis. 
+  > i.e. `<em>first</em><em>second</em><em>third</em>`
 
 
 
