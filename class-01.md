@@ -245,11 +245,14 @@ Refer to each member of the array like this:
 ```
 1. Describe 2 things that require JavaScript in the Browser?
 
-- 
+  - JavaScript is used for adding interactive behavior to webpages where users are able to be more engaged.
+    Everything from interactive maps, 2D/3D animation, scrolling video sources etc. all requrire JavaScript.
+    API's also require JavaScript to run and are  ready-made sets of code building blocks that allow a developer to 
+    implement programs that would otherwise be hard or impossible to implement.
 
 2. How can you add JavaScript to an HTML document?
 
-- 
+  - JavaScript can be added to an HTML document using the <script> element. 
 
 (source cred: developer.mozilla.org)    
 ```
