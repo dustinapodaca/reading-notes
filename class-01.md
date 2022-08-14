@@ -58,11 +58,11 @@
   - i.e. `let myVariable;`
   - A semicolon at the end of a line indicates where a statement ends. It is only required when you need to separate statements on a single line. However, some people believe it's good practice to have semicolons at the end of each statement.
 
-### Note that variables may hold values that have different data types:
+## Note that variables may hold values that have different data types:
 
-- String
-  > - This is a sequence of text known as a string. To signify that the value is a string, enclose it in single quote marks.
-    > `let myVariable = 'Bob';`
+### String 
+- This is a sequence of text known as a string. To signify that the value is a string, enclose it in single quote marks.
+  - `let myVariable = 'Bob';`
 - Number
 - Boolean
 - Array
