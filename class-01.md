@@ -133,7 +133,7 @@ Refer to each member of the array like this:
 #### - Attributes contain extra information about the element that won't appear in the content.
 - i.e. `<p class="editor-note">My cat is very grumpy</p>`
 
-An **attribute** should have:
+- An **attribute** should have:
   - A space between it and the element name. (For an element with more than one attribute, the attributes should be separated by spaces too.)
   - The attribute name, followed by an equal sign.
   - An attribute value, wrapped with opening and closing quote marks.
