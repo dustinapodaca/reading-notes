@@ -78,7 +78,7 @@ Refer to each member of the array like this:
 - This can be anything. Everything in JavaScript is an object and can be stored in a variable. Keep this in mind as you learn.	
   - `let myVariable = document.querySelector('h1');`
 
-  
+---  
 ```
 1. Compose a short poem describing how HTTP sends data between computers.
   
@@ -153,7 +153,7 @@ Refer to each member of the array like this:
 
 
 
-
+---
 ```  
   
 1. What is an HTML attribute?
