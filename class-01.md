@@ -229,19 +229,27 @@ Refer to each member of the array like this:
 ```
 1. Why should you use an <h1> element over a <span> element to display a top level heading?
 
-  - 
+  - One should use an <h1> element over a <span> element as the <h1> is a semantic element and will therefore
+    give the text it wraps around a role or meaning. For example the <h1> tag is utilized in SEO optimazation where
+    search engines will consider its contents as important keywords to influence the page's search rankings
 
 2. What are the benefits of using semantic tags in our HTML?
 
--
-
+  - SEO optimization for page rankings, finding blocks of code is easier than multiple <div>, screen readers
+    can use it as a signpost to help disabled users navigate, helps suggest to the dev what type of data will be 
+    populated, etc.
 
 (source cred: developer.mozilla.org)    
 ```
 ---
 ```
-Describe 2 things that require JavaScript in the Browser?
-How can you add JavaScript to an HTML document?
+1. Describe 2 things that require JavaScript in the Browser?
+
+- 
+
+2. How can you add JavaScript to an HTML document?
+
+- 
 
 (source cred: developer.mozilla.org)    
 ```
