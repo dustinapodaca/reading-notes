@@ -75,6 +75,8 @@
 Refer to each member of the array like this:
 `myVariable[0]`, `myVariable[1]`, etc.
 ## Object
+- This can be anything. Everything in JavaScript is an object and can be stored in a variable. Keep this in mind as you learn.	
+  - `let myVariable = document.querySelector('h1');`
 
   
 ```
