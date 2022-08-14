@@ -120,7 +120,7 @@ Refer to each member of the array like this:
 ---
 ### HTML (Hypertext Markup Language) is a markup language that tells web browsers how to structure the web pages you visit. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on. 
 
-- An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, enclosed text content, and a closing tag.
+#### An **element** is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, enclosed text content, and a closing tag.
 
 - Elements can be placed within other elements. This is called **nesting.**
   - i.e. `<p>My cat is <strong>very</strong> grumpy.</p>`
@@ -129,6 +129,8 @@ Refer to each member of the array like this:
   - i.e `<p>fourth</p><p>fifth</p><p>sixth</p>`
   - Inline elements are contained within block-level elements, and surround only small parts of the document's content (not entire paragraphs or groupings of content). An inline element will not cause a new line to appear in the document. It is typically used with text, for example an `<a>` element creates a hyperlink, and elements such as `<em>` or `<strong>`create emphasis. 
   - i.e. `<em>first</em><em>second</em><em>third</em>`
+
+
 
 
 
