@@ -172,15 +172,24 @@ Refer to each member of the array like this:
   
 3. What is the Difference between <article> and <section> element tags?
   
-  - 
-  
+  - <article> encloses a block of related content that makes sense on its own without the rest of the page.
+  - <section> is similar to <article>, but it is more for grouping together a single part of the page that constitutes 
+    one single piece of functionality or a theme- therefore, defines a section in a document.
   
 4. What Elements does a “typical” website include?
+
+  - <header> <nav> <main> <article> <section> <div> <aside> <footer> <body> <title> <p> <ul> <ol> <h1> <br> etc.
   
 5. How does metadata influence Search Engine Optimization?
   
+  - Specifying a description that includes keywords relating to the content of your page is useful as it has the 
+    potential to make your page appear higher in relevant searches performed in search engines.
+    
 6. How is the <meta> HTML tag used when specifying metadata?
   
+  - The <meta> element is used to specify metadata and typically many <meta> elements include "name" and "content"
+    attributes. Name specifies the type of meta element it is; what type of information it contains and content 
+    specifies the actual meta content.
 
 ```
 ---
