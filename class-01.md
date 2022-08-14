@@ -1,4 +1,5 @@
 <img src="https://members-csforall.imgix.net/members/logos/code-fellows-logo-horizontal-2-color-black.png" width="340" height="66">  
+
 # Code 201 Reading Notes
 
 ## Class 01 Reading Notes
