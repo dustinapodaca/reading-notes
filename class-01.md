@@ -196,16 +196,35 @@ Refer to each member of the array like this:
 ```
 ---
 
+### When starting with a web project, many people focus on the technical side. Of course you must be familiar with the technique of your craft, but what really matters is what you want to accomplish. Yes, it seems obvious, but too many projects fail not from a lack of technical know-how, but from lack of goals and vision.
+
+- What exactly do I want to accomplish?
+- How will a website help me reach my goals?
+- What needs to be done, and in what order, to reach my goals?
+
 ```
-What is the first step to designing a Website?
-What is the most important question to answer when designing a Website?
+1. What is the first step to designing a Website?
+
+  - The first step when designing any website is to first define what you want to accomplish. 
+  
+2. What is the most important question to answer when designing a Website?
+
+  - One must answer what they intend to accomplish, and what needs to be done and in what order to reach their goals.
+    What you intend to accomplish is most important as it is the driving force behind everything else. One should 
+    generally list all of the goals that they wish to acheive. 
 
 (source cred: developer.mozilla.org)    
 ```
 ---
 ```
-Why should you use an <h1> element over a <span> element to display a top level heading?
-What are the benefits of using semantic tags in our HTML?
+1. Why should you use an <h1> element over a <span> element to display a top level heading?
+
+-
+
+2. What are the benefits of using semantic tags in our HTML?
+
+-
+
 
 (source cred: developer.mozilla.org)    
 ```
