@@ -120,15 +120,29 @@ Refer to each member of the array like this:
 ---
 ## HTML (Hypertext Markup Language) is a markup language that tells web browsers how to structure the web pages you visit. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on. 
 
+- An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, enclosed text content, and a closing tag.
+
+- Elements can be placed within other elements. This is called **nesting.**
+  - `<p>My cat is <strong>very</strong> grumpy.</p>`
+
+
+
+
+
+
+
+
 
 
 ```  
   
 1. What is an HTML attribute?
+
   - An HTML attribute are special words that define additional characteristics or properties of the HTML element.
     They generally contain extra information that won't appear in the content.
   
 2. Describe the Anatomy of an HTMl element.
+
   - The anatomy of an HTML element is broken up into three characteristics; the opening tag, the content, and 
     the closing tag.
     - The opening tag consists of the name of the element wrapped in opening and closing angle brackets.
@@ -137,6 +151,9 @@ Refer to each member of the array like this:
       where the element ends.
   
 3. What is the Difference between <article> and <section> element tags?
+  
+  - 
+  
   
 4. What Elements does a “typical” website include?
   
