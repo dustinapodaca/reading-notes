@@ -216,10 +216,20 @@ Refer to each member of the array like this:
 (source cred: developer.mozilla.org)    
 ```
 ---
+
+### In programming, Semantics refers to the meaning of a piece of code — for example "what effect does running that line of JavaScript have?", or "what purpose or role does that HTML element have" (rather than "what does it look like?".)
+
+- In HTML, for example, the <h1> element is a semantic element, which gives the text it wraps around the role (or meaning) of "a top level heading on your page."
+  - `<h1>This is a top level heading</h1>`
+- On the other hand, you could make any element look like a top level heading. Consider the following:
+  - `<span style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</span>`
+- This will render it to look like a top level heading, but it has no semantic value, so it will not get any extra benefits as described above. It is therefore a good idea to use the right HTML element for the right job.
+
+
 ```
 1. Why should you use an <h1> element over a <span> element to display a top level heading?
 
--
+  - 
 
 2. What are the benefits of using semantic tags in our HTML?
 
@@ -235,3 +245,10 @@ How can you add JavaScript to an HTML document?
 
 (source cred: developer.mozilla.org)    
 ```
+## Things I Want to Know More About
+
+- Variables, Functions, Operators in JS
+- Memorize HTML syntax
+- Structuring metadata for SEO optimization with Google Search Engine
+- Version Control and git
+- 
