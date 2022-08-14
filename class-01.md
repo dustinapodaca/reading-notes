@@ -72,3 +72,20 @@
 
 ```
 ---
+
+```  
+  
+1. What is an HTML attribute?
+  
+2. Describe the Anatomy of an HTMl element.
+  
+3. What is the Difference between <article> and <section> element tags?
+  
+4. What Elements does a “typical” website include?
+  
+5. How does metadata influence Search Engine Optimization?
+  
+6. How is the <meta> HTML tag used when specifying metadata?
+  
+
+```
