@@ -60,8 +60,15 @@
     and save it for future use. 
   
 4. How do you create a String vs a Number in JavaScript?
-  -
+  
+  - A string variable is created with single "" marks around the value that you are signifying as a string. 
+    i.e let myVariable = 'Dustin'; It is a sequnce of text where signifying a Number variable you do not 
+    enclose in quotes. i.e let myVariable = 10;
+  
 5. What is a Variable and why are they important in JavaScript?
+  
+    - A varibale is a container for storing data (data types). Variables are necessary to do anything interesting in 
+      programming. If values couldn't change, then you couldn't do anything dynamic.
 
 ```
 ---
