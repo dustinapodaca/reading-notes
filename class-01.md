@@ -33,6 +33,8 @@
 
 - The **<script>** HTML element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code.
   
+> JavaScript is a programming language that allows you to implement complex things on web pages. Every time a web page does more than just sit there and > > display static information for you to look at—displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, or > more—you can bet that JavaScript is probably involved.
+  
 ```
 1. Compose a short poem describing how HTTP sends data between computers.
   
@@ -76,6 +78,7 @@
 ```  
   
 1. What is an HTML attribute?
+  - An HTML attribute is 
   
 2. Describe the Anatomy of an HTMl element.
   
@@ -89,3 +92,4 @@
   
 
 ```
+---
