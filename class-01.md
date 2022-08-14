@@ -115,7 +115,8 @@ Refer to each member of the array like this:
   
     - A varibale is a container for storing data (data types). Variables are necessary to do anything interesting 
       in programming. If values couldn't change, then you couldn't do anything dynamic.
-
+      
+ (source cred: developer.mozilla.org)     
 ```
 ---
 ### HTML (Hypertext Markup Language) is a markup language that tells web browsers how to structure the web pages you visit. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on. 
@@ -191,6 +192,7 @@ Refer to each member of the array like this:
     attributes. Name specifies the type of meta element it is; what type of information it contains and content 
     specifies the actual meta content.
 
+(source cred: developer.mozilla.org)    
 ```
 ---
 
@@ -198,16 +200,19 @@ Refer to each member of the array like this:
 What is the first step to designing a Website?
 What is the most important question to answer when designing a Website?
 
+(source cred: developer.mozilla.org)    
 ```
 ---
 ```
 Why should you use an <h1> element over a <span> element to display a top level heading?
 What are the benefits of using semantic tags in our HTML?
 
+(source cred: developer.mozilla.org)    
 ```
 ---
 ```
 Describe 2 things that require JavaScript in the Browser?
 How can you add JavaScript to an HTML document?
 
+(source cred: developer.mozilla.org)    
 ```
