@@ -61,6 +61,8 @@
 ### Note that variables may hold values that have different data types:
 
 - String
+  - This is a sequence of text known as a string. To signify that the value is a string, enclose it in single quote marks.
+    > `let myVariable = 'Bob';`
 - Number
 - Boolean
 - Array
