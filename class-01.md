@@ -130,6 +130,9 @@ Refer to each member of the array like this:
   - Inline elements are contained within block-level elements, and surround only small parts of the document's content (not entire paragraphs or groupings of content). An inline element will not cause a new line to appear in the document. It is typically used with text, for example an `<a>` element creates a hyperlink, and elements such as `<em>` or `<strong>`create emphasis. 
   - i.e. `<em>first</em><em>second</em><em>third</em>`
 
+#### Attributes contain extra information about the element that won't appear in the content.
+- i.e. `<p class="editor-note">My cat is very grumpy</p>`
+
 
 
 
