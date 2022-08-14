@@ -219,7 +219,7 @@ Refer to each member of the array like this:
 
 ### In programming, Semantics refers to the meaning of a piece of code — for example "what effect does running that line of JavaScript have?", or "what purpose or role does that HTML element have" (rather than "what does it look like?".)
 
-- In HTML, for example, the <h1> element is a semantic element, which gives the text it wraps around the role (or meaning) of "a top level heading on your page."
+- In HTML, for example, the `<h1>` element is a semantic element, which gives the text it wraps around the role (or meaning) of "a top level heading on your page."
   - `<h1>This is a top level heading</h1>`
 - On the other hand, you could make any element look like a top level heading. Consider the following:
   - `<span style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</span>`
