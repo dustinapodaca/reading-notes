@@ -53,6 +53,18 @@
 - Third party APIs are not built into the browser by default, and you generally have to grab their code and information from somewhere on the Web. For example:
   - The Twitter API allows you to do things like displaying your latest tweets on your website.
   - The Google Maps API and OpenStreetMap API allows you to embed custom maps into your website, and other such functionality.
+  
+- **Variables** are containers that store values. You start by declaring a variable with the let keyword, followed by the name you give to the variable:
+  - i.e. let myVariable;
+  - A semicolon at the end of a line indicates where a statement ends. It is only required when you need to separate statements on a single line. However, some people believe it's good practice to have semicolons at the end of each statement.
+
+### Note that variables may hold values that have different data types:
+
+- String
+- Number
+- Boolean
+- Array
+- Object
 
   
 ```
