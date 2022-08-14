@@ -3,8 +3,11 @@
 ## Class 01 Reading Notes
 > Why this topic matters? - It is important to have a base understanding of how the internet works. HTML, CSS, and JS are the code files from which websites are primarily built. Understanding the roles that each play is essential to becoming a programmer or web developer. 
 >  - **HTML** - creates the structure i.e. the backbone.
+>   - HTML is the markup language that we use to structure and give meaning to our web content, for example defining paragraphs, headings, and data tables, or embedding images and videos in the page.
 >  - **CSS** - stylizes the website or makes it look good.
+>   - CSS is a language of style rules that we use to apply styling to our HTML content, for example setting background colors and fonts, and laying out our content in multiple columns.
 >  - **JavaScript** - increases interactivity; handles more complex functions and features and enhances site functionality.
+>   -JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)
 >  
 ---
 
@@ -34,6 +37,8 @@
 - The **<script>** HTML element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code.
   
 ### JavaScript is a programming language that allows you to implement complex things on web pages. Every time a web page does more than just sit there and display static information for you to look at—displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, or more—you can bet that JavaScript is probably involved.
+  
+
   
 ```
 1. Compose a short poem describing how HTTP sends data between computers.
