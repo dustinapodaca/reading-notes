@@ -12,7 +12,7 @@
 
 - ### Reading Notes from August 15 - September 9:
 
-  - [Class Notes 01](https://dustinapodaca.github.io/reading-notes/class-01)
+  - [Class Notes 01](/class-01.md)
 
   - [Class - 2]
 
