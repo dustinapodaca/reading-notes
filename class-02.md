@@ -17,7 +17,7 @@
 ### One of HTML's main jobs is to give text structure so that a browser can display an HTML document the way its developer intends. 
 
 - In HTML, each paragraph has to be wrapped in a `<p>` element
-- Each heading has to be wrapped in a heading `<h1> <h2> <h3>` element.
+- Each heading has to be wrapped in a heading `<h1>` `<h2>` `<h3>` element.
     - Preferably, you should use a single `<h1>` per page—this is the top level heading, and all others sit below this in the hierarchy.
     - Of the six heading levels available, you should aim to use no more than three per page, unless you feel it is necessary.
     - Users looking at a web page tend to scan quickly to find relevant content, often just reading the headings, to begin with. If they can't see anything useful within a few seconds, they'll likely get frustrated and go somewhere else.
@@ -34,19 +34,18 @@
 - It is perfectly OK to nest one list inside another one. You might want to have some sub-bullets sitting below a top-level bullet.
     - Since the last two bullets are very closely related to the one before them (they read like sub-instructions or choices that fit below that bullet), it might make sense to nest them inside their own unordered list and put that list inside the current fourth bullet. This would look like so:
 
-```
-<ol>
-  <li>Remove the skin from the garlic, and chop coarsely.</li>
-  <li>Remove all the seeds and stalk from the pepper, and chop coarsely.</li>
-  <li>Add all the ingredients into a food processor.</li>
-  <li>Process all the ingredients into a paste.
-    <ul>
-      <li>If you want a coarse "chunky" hummus, process it for a short time.</li>
-      <li>If you want a smooth hummus, process it for a longer time.</li>
-    </ul>
-  </li>
-</ol>
-```
+> <ol>
+>  <li>Remove the skin from the garlic, and chop coarsely.</li>
+>  <li>Remove all the seeds and stalk from the pepper, and chop coarsely.</li>
+>  <li>Add all the ingredients into a food processor.</li>
+>  <li>Process all the ingredients into a paste.
+>    <ul>
+>      <li>If you want a coarse "chunky" hummus, process it for a short time.</li>
+>      <li>If you want a smooth hummus, process it for a longer time.</li>
+>    </ul>
+>  </li>
+> </ol>
+
 
 ### Emphasis and Importance
 
