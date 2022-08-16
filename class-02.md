@@ -2,7 +2,7 @@
 
 # Code 201 Reading Notes
 
-## Class 02 Reading Notes
+## Class 02 Reading Notes - (source cred: developer.mozilla.org)  
 > Why this topic matters? - It is important to continue to develop our understanding of how the internet works. HTML, CSS, and JS are the code files from which websites are primarily built. Continuing to further our understanding of the roles that each play is essential to becoming a programmer or web developer. 
 >  - **HTML** - creates the structure i.e. the backbone.
 >     - HTML is the markup language that we use to structure and give meaning to our web content, for example defining paragraphs, headings, and data tables, or embedding images and videos in the page.
@@ -100,6 +100,7 @@ When using the <abbr> element, what attribute must be added to provide the full 
 
     - The title attribute should be added in addition to the element to provide the full expansion of the term.
 
+(source cred: developer.mozilla.org)  
 ```
 
 ### Applying CSS to HTML
@@ -196,6 +197,8 @@ Review the block of code below and answer the following questions:
         - color:
         - padding:
 
+
+(source cred: developer.mozilla.org)  
 ```
 ### Operators
 - An `operator` is a mathematical symbol that produces a result based on two values (or variables).
@@ -272,13 +275,46 @@ Describe a real world Problem you could solve with a Function.
 
     - In the real world you could use a function- much like in my Lab 1- that would take a person's weight, height, and age, and determine the recommended amount of water they would need to drink on a daily basis. You could also use a function to solve complex financial or business problems.
 
+(source cred: developer.mozilla.org)  
+
 ```
+
+### More on Conditionals
+
+- In any programming language, the code needs to make decisions and carry out actions accordingly depending on different inputs. For example, in a game, if the player's number of lives is 0, then it's game over. In a weather app, if it is being looked at in the morning, show a sunrise graphic; show stars and a moon if it is nighttime. 
+
+- The most common type of conditional statement you'll use in JavaScript —isthe humble `if...else` statement.
+
+```
+if (condition) {
+  /* code to run if condition is true */
+} else {
+  /* run some other code instead */
+}
+```
+
+
+
 ```
 An if statement checks a __ and if it evaluates to ___, then the code block will execute.
 
-    - ..... 
+    - condition | true
 
 What is the use of an else if?
+
+    -  It is a way to chain on extra choices/outcomes to your if...else statemnet by utilizing else if.
+
 List 3 different types of comparison operators.
+
+    1. === and !== — test if one value is identical to, or not identical to, another.
+    2. < and > — test if one value is less than or greater than another.
+    3. <= and >= — test if one value is less than or equal to, or greater than or equal to, another.
+
+
 What is the difference between the logical operator && and ||?
+
+    - && — AND; allows you to chain together two or more expressions so that all of them have to individually evaluate to true for the whole expression to return true.
+    - || — OR; allows you to chain together two or more expressions so that one or more of them have to individually evaluate to true for the whole expression to return true.
+
+(source cred: developer.mozilla.org)  
 ```
