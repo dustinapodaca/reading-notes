@@ -275,6 +275,9 @@ Describe a real world Problem you could solve with a Function.
 ```
 ```
 An if statement checks a __ and if it evaluates to ___, then the code block will execute.
+
+    - ..... 
+
 What is the use of an else if?
 List 3 different types of comparison operators.
 What is the difference between the logical operator && and ||?
