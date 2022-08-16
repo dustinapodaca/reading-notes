@@ -17,7 +17,7 @@
 ### One of HTML's main jobs is to give text structure so that a browser can display an HTML document the way its developer intends. 
 
 - In HTML, each paragraph has to be wrapped in a `<p>` element
-- Each heading has to be wrapped in a heading `<h1>`` <h2>`` <h3>` element.
+- Each heading has to be wrapped in a heading `<h1> <h2> <h3>` element.
     - Preferably, you should use a single `<h1>` per page—this is the top level heading, and all others sit below this in the hierarchy.
     - Of the six heading levels available, you should aim to use no more than three per page, unless you feel it is necessary.
     - Users looking at a web page tend to scan quickly to find relevant content, often just reading the headings, to begin with. If they can't see anything useful within a few seconds, they'll likely get frustrated and go somewhere else.
@@ -47,6 +47,7 @@
   </li>
 </ol>
 ```
+
 ### Emphasis and Importance
 
 - In HTML we use the `<em>` (emphasis) element to mark up text in *italics.*
@@ -55,6 +56,32 @@
     - The `<span>` tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute.
     - You use it to wrap content when you want to apply CSS to it (or do something to it with JavaScript) without giving it any extra meaning. 
     -i.e. `<span style="font-size: 32px; margin: 21px 0; display: block;">Is this a top level heading?</span>`
+
+### Other Advanced Formatting
+
+- Description lists use a different wrapper than the other list types — `<dl>`; in addition each term is wrapped in a `<dt>` (description term) element, and each description is wrapped in a `<dd>` (description definition) element.
+    - The browser default styles will display description lists with the descriptions indented somewhat from the terms.
+
+- Inline quotations work by using the `<q>` element.
+- There is a `<cite>` element, but this is meant to contain the title of the resource being quoted, e.g. the name of the book. There is no reason, however, why you couldn't link the text inside `<cite>` to the quote source in some way
+    - i.e. `<p>According to the <a href="/en-US/docs/Web/HTML/Element/blockquote">`
+`<cite>MDN blockquote page</cite></a>:</p>`
+
+-Another fairly common element you'll meet when looking around the Web is `<abbr>`— this is used to wrap around an abbreviation or acronym. When including either, provide a full expansion of the term in plain text on first use, along with the `<abbr>` to mark up the abbreviation.
+    - If providing the expansion in addition to the abbreviation makes little sense, and the abbreviation or acronym is a fairly shortened term, provide the full expansion of the term as the value of `title` attribute:
+    - i.e. `<p>I think <abbr title="Reverend">Rev.</abbr> Green did it in the kitchen with the chainsaw.</p>`
+
+- You will occasionally need to use superscript and subscript when marking up items like dates, chemical formulae, and mathematical equations so they have the correct meaning. The `<sup>` and `<sub>` elements handle this job.
+    - i.e. `25<sup>th</sup>` is 25<sup>th</sup>
+    - i.e. `C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>` is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>
+
+#### Misc.
+
+- `<code>`: For marking up generic pieces of computer code.
+- `<pre>`: For retaining whitespace (generally code blocks) — if you use indentation or excess whitespace inside your text, browsers will ignore it and you will not see it on your rendered page. If you wrap the text in `<pre>``</pre>` tags however, your whitespace will be rendered identically to how you see it in your text editor.
+- `<var>`: For specifically marking up variable names.
+- `<kbd>`: For marking up keyboard (and other types of) input entered into the computer.
+- `<samp>`: For marking up the output of a computer program.
 
 ```
 Why is it important to use semantic elements in our HTML?
@@ -74,39 +101,101 @@ When using the <abbr> element, what attribute must be added to provide the full 
     - The title attribute should be added in addition to the element to provide the full expansion of the term.
 
 ```
-### Other Advanced Formatting
 
-- Description lists use a different wrapper than the other list types — `<dl>`; in addition each term is wrapped in a `<dt>` (description term) element, and each description is wrapped in a `<dd>` (description definition) element.
-    - The browser default styles will display description lists with the descriptions indented somewhat from the terms.
+### Applying CSS to HTML
 
-- Inline quotations work by using the `<q>` element.
-- There is a `<cite>` element, but this is meant to contain the title of the resource being quoted, e.g. the name of the book. There is no reason, however, why you couldn't link the text inside `<cite>` to the quote source in some way
-    - i.e. `<p>According to the <a href="/en-US/docs/Web/HTML/Element/blockquote">`
-`<cite>MDN blockquote page</cite></a>:</p>`
+- **External Stylesheet**
+    - An external stylesheet contains CSS in a separate file with a .css extension. This is the most common and useful method of bringing CSS to a document. You can link a single CSS file to multiple web pages, styling all of them with the same CSS stylesheet.
+    - You reference an external CSS stylesheet from an HTML `<link>` element.
+    - i.e: `<link rel="stylesheet" href="styles.css">`
 
--Another fairly common element you'll meet when looking around the Web is `<abbr>`— this is used to wrap around an abbreviation or acronym. When including either, provide a full expansion of the term in plain text on first use, along with the `<abbr>` to mark up the abbreviation.
-    - If providing the expansion in addition to the abbreviation makes little sense, and the abbreviation or acronym is a fairly shortened term, provide the full expansion of the term as the value of `title` attribute:
-    - i.e. `<p>I think <abbr title="Reverend">Rev.</abbr> Green did it in the kitchen with the chainsaw.</p>`
+- The `href` attribute of the `<link>` element needs to reference a file on your file system. In the example above, the CSS file is in the same folder as the HTML document, but you could place it somewhere else and adjust the path.
+    - i.e: `<link rel="stylesheet" href="styles/style.css">` *Inside a subdirectory called styles inside the current directory*
 
-- You will occasionally need to use superscript and subscript when marking up items like dates, chemical formulae, and mathematical equations so they have the correct meaning. The `<sup>` and `<sub>` elements handle this job.
-    - i.e. `25<sup>th</sup>` is <p>25<sup>th</sup></p>
-    - i.e. `C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>` is <p>C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub></p>
+- **Internal Stylesheet**
+    - An internal stylesheet resides within an HTML document. To create an internal stylesheet, you place CSS inside a `<style>` element contained inside the HTML `<head>`.
+```    
+<head>
+    <meta charset="utf-8">
+    <title>My CSS experiment</title>
+    <style>
+      h1 {
+        color: blue;
+        background-color: yellow;
+        border: 1px solid black;
+      }
 
-#### Misc.
+      p {
+        color: red;
+      }
+    </style>
+  </head>
+```
+    - In some circumstances, internal stylesheets can be useful. For example, perhaps you're working with a content management system where you are blocked from modifying external CSS files.
+    - But for sites with more than one page, an internal stylesheet becomes a less efficient way of working. To apply uniform CSS styling to multiple pages using internal stylesheets, you must have an internal stylesheet in every web page that will use the styling. 
+    - The efficiency penalty carries over to site maintenance too. With CSS in internal stylesheets, there is the risk that even one simple styling change may require edits to multiple web pages.
 
-- `<code>`: For marking up generic pieces of computer code.
-- `<pre>`: For retaining whitespace (generally code blocks) — if you use indentation or excess whitespace inside your text, browsers will ignore it and you will not see it on your rendered page. If you wrap the text in `<pre>``</pre>` tags however, your whitespace will be rendered identically to how you see it in your text editor.
-- `<var>`: For specifically marking up variable names.
-- `<kbd>`: For marking up keyboard (and other types of) input entered into the computer.
-- `<samp>`: For marking up the output of a computer program.
+- **Inline Styles**
+    - Inline styles are CSS declarations that affect a single HTML element, contained within a style attribute. 
+    - The implementation of an inline style in an HTML document might look like this:
+    - i.e: `<h1 style="color: blue;background-color: yellow;border: 1px solid black;">Hello World!</h1>`
 
+- Avoid using CSS in this way, when possible. It is the opposite of a best practice. 
+    1. First, it is the least efficient implementation of CSS for maintenance.
+    2. Second, inline CSS also mixes (CSS) presentational code with HTML and content, making everything more difficult to read and understand. Separating code and content makes maintenance easier for all who work on the website.
+
+### Selectors
+
+- Each CSS rule starts with a selector — or a list of selectors — in order to tell the browser which element or elements the rules should apply to.
+
+- You may encounter scenarios where two selectors select the same HTML element.
+
+- The CSS language has rules to control which selector is stronger in the event of a conflict. These rules are called **cascade** and **specificity.**
+
+- Declarations that appear later in the stylesheet replace conflicting styles that appear earlier in the stylesheet. This is the **cascade** rule.
+
+- **Class** selector is rated as being more specific than the element selector, as in having more **specificity** than the element selector, so it cancels the other conflicting style declaration
+    - i.e: the code shows that the `.special` class selector will override `<p>` in the below line of code.
+    - `<p class="special">What color am I?</p>`
+    
+```
+.special {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+```
+- At its most basic level, CSS consists of two components:
+    - **Properties**: These are human-readable identifiers that indicate which stylistic features you want to modify. For example, font-size, width, background-color.
+    - **Values**: Each property is assigned a value. This value indicates how to style the property.
+
+- When a property is paired with a value, this pairing is called a **CSS declaration.** CSS declarations are found within CSS Declaration Blocks.
+    - Setting CSS properties to specific values is the primary way of defining layout and styling for a document. The CSS engine calculates which declarations apply to every single element of a page.
+    
 ```
 What are ways we can apply CSS to our HTML?
+
+    - There are three methods of applying CSS to a document: an external stylesheet, with an internal stylesheet, and with inline styles.
+
 Why should we avoid using inline styles?
+
+    - It is the least effecient for any requried maintenance and inline CSS also mixes (CSS) presentational code with HTML and content, making everything more difficult to read and understand. 
+
 Review the block of code below and answer the following questions:
-What is representing the selector?
-Which components are the CSS declarations?
-Which components are considered properties?
+
+    What is representing the selector?
+        - h2
+
+    Which components are the CSS declarations?
+        - color: black;
+        - padding: 5px;
+
+    Which components are considered properties?
+        - color:
+        - padding:
+
 ```
 ```
 What data type is a sequence of text enclosed in single quote marks?
