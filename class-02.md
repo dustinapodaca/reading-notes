@@ -33,19 +33,19 @@
 
 - It is perfectly OK to nest one list inside another one. You might want to have some sub-bullets sitting below a top-level bullet.
     - Since the last two bullets are very closely related to the one before them (they read like sub-instructions or choices that fit below that bullet), it might make sense to nest them inside their own unordered list and put that list inside the current fourth bullet. This would look like so:
-
-> <ol>
->  <li>Remove the skin from the garlic, and chop coarsely.</li>
->  <li>Remove all the seeds and stalk from the pepper, and chop coarsely.</li>
->  <li>Add all the ingredients into a food processor.</li>
->  <li>Process all the ingredients into a paste.
->    <ul>
->      <li>If you want a coarse "chunky" hummus, process it for a short time.</li>
->      <li>If you want a smooth hummus, process it for a longer time.</li>
->    </ul>
->  </li>
-> </ol>
-
+```
+<ol>
+  <li>Remove the skin from the garlic, and chop coarsely.</li>
+  <li>Remove all the seeds and stalk from the pepper, and chop coarsely.</li>
+  <li>Add all the ingredients into a food processor.</li>
+  <li>Process all the ingredients into a paste.
+    <ul>
+      <li>If you want a coarse "chunky" hummus, process it for a short time.</li>
+      <li>If you want a smooth hummus, process it for a longer time.</li>
+    </ul>
+  </li>
+ </ol>
+```
 
 ### Emphasis and Importance
 
@@ -85,7 +85,9 @@
 ```
 Why is it important to use semantic elements in our HTML?
 
-    - Semantic HTML refers to syntax that makes the HTML more comprehensible by better defining the different sections and layout of web pages. It makes web pages more informative and adaptable, allowing browsers and search engines to better interpret content.
+    - Semantic HTML refers to syntax that makes the HTML more comprehensible by better defining the 
+      different sections and layout of web pages. It makes web pages more informative and adaptable, 
+      allowing browsers and search engines to better interpret content.
 
 How many levels of headings are there in HTML?
 
