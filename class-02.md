@@ -173,7 +173,7 @@ p {
 
 - When a property is paired with a value, this pairing is called a **CSS declaration.** CSS declarations are found within CSS Declaration Blocks.
     - Setting CSS properties to specific values is the primary way of defining layout and styling for a document. The CSS engine calculates which declarations apply to every single element of a page.
-    
+
 ```
 What are ways we can apply CSS to our HTML?
 
@@ -197,10 +197,81 @@ Review the block of code below and answer the following questions:
         - padding:
 
 ```
+### Operators
+- An `operator` is a mathematical symbol that produces a result based on two values (or variables).
+
+#### Addition
+- Add two numbers together or combine two strings.	
+    - i.e. `6 + 9;` `'Hello ' + 'world!';`
+
+#### Subtraction, Multiplication, Division
+- These do what you'd expect them to do in basic math.	
+    - i.e. `9 - 3;` `8 * 2;` `9 / 3;`
+
+#### Assignment
+- As you've seen already: this assigns a value to a variable.
+    - i.e. `let myVariable = 'Bob';`
+
+#### Strict equality	
+- This performs a test to see if two values are equal. It returns a `true`/`false` (Boolean) result.
+    - `let myVariable = 3;`
+    - `myVariable === 4;`
+
+#### Not, Does-not-equal
+- This returns the logically opposite value of what it precedes. It turns a `true` into a `false`, etc.. When it is used alongside the Equality operator, the negation operator tests whether two values are not equal.
+    - For "Not", the basic expression is true, but the comparison returns false because we negate it:
+    - `let myVariable = 3;`
+    - `!(myVariable === 3);`
+
+    - "Does-not-equal" gives basically the same result with different syntax. Here we are testing "is myVariable NOT equal to 3". This returns false because myVariable IS equal to 3:
+    - `let myVariable = 3;`
+    - `myVariable !== 3;`
+
+### Conditionals
+- Conditionals are code structures used to test if an expression returns true or not. A very common form of conditionals is the if...else statement. 
+```
+let iceCream = 'chocolate';
+if (iceCream === 'chocolate') {
+  alert('Yay, I love chocolate ice cream!');
+} else {
+  alert('Awwww, but chocolate is my favorite…');
+}
+```
+- The expression inside the `if ()` is the test. This uses the strict equality operator (as described above) to compare the variable `iceCream` with the string `chocolate` to see if the two are equal. If this comparison returns `true`, the first block of code runs. If the comparison is not true, the second block of code—after the `else` statement—runs instead.
+
+### Functions
+- Functions are a way of packaging functionality that you wish to reuse. It's possible to define a body of code as a function that executes when you call the function name in your code. This is a good alternative to repeatedly writing the same code.
+    - `let myVariable = document.querySelector('h1');`
+    - `alert('hello!');`
+    - These functions, `document.querySelector` and `alert`, are built into the browser.
+
+- If you see something which looks like a variable name, but it's followed by parentheses— `()` —it is likely a function. 
+- Functions often take *arguments*: bits of data they need to do their job. Arguments go inside the parentheses, separated by commas if there is more than one argument.
+    - For example, the `alert()` function makes a pop-up box appear inside the browser window, but we need to give it a string as an argument to tell the function what message to display.
+
+- You can also define your own functions.
+- In the next example, we create a simple function which takes two numbers as arguments and multiplies them:
+```
+function multiply(num1,num2) {
+  let result = num1 * num2;
+  return result;
+}
+```
+- You can then test `multiply(4, 7);` or `multiply(0.5, 3);` etc. later in the code or console.
+
 ```
 What data type is a sequence of text enclosed in single quote marks?
+
+    - A string. A value enclosed in single quote marks signifies a string.
+
 List 4 types of JavaScript operators.
+
+    - +, -. *, /, =, ===, !, !==, etc.
+
 Describe a real world Problem you could solve with a Function.
+
+    - In the real world you could use a function- much like in my Lab 1- that would take a person's weight, height, and age, and determine the recommended amount of water they would need to drink on a daily basis. You could also use a function to solve complex financial or business problems.
+
 ```
 ```
 An if statement checks a __ and if it evaluates to ___, then the code block will execute.
