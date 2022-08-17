@@ -67,50 +67,58 @@ List and describe the four parts of an HTML elements box as referred to by the b
   - Array objects can be stored in variables and dealt with in much the same way as any other type of value, the difference being that we can access each value inside the list individually, and do super useful and efficient things with the list, like loop through it and do the same thing to every value.
 
 1. Arrays consist of square brackets and items that are separated by commas.
-    - i.e:  `const shopping = ['bread', 'milk', 'cheese', 'hummus', 'noodles'];`
-            `console.log(shopping);`
+    - `const shopping = ['bread', 'milk', 'cheese', 'hummus', 'noodles'];`
+    - `console.log(shopping);`
 
 2. In the above example, each item is a string, but in an array we can store various data types — strings, numbers, objects, and even other arrays. We can also mix data types in a single array — we do not have to limit ourselves to storing only numbers in one array, and in another only strings.
-    - i.e:  `const sequence = [1, 1, 2, 3, 5, 8, 13];`
-            `const random = ['tree', 795, [0, 1, 2]];`
+    - `const sequence = [1, 1, 2, 3, 5, 8, 13];`
+    - `const random = ['tree', 795, [0, 1, 2]];`
+
+### Expressions and Operators
+
+- At a high level, an **expression** is a valid unit of code that resolves to a value. There are two types of expressions: those that have side effects (such as assigning values) and those that purely *evaluate*.
+
+- The expression `x = 7` is an example of the first type. This expression uses the `=` operator to assign the value seven to the variable `x`. The expression itself evaluates to `7`.
+
+- The expression `3 + 4` is an example of the second type. This expression uses the `+` operator to add `3` and `4` together and produces a value, `7`. However, if it's not eventually part of a bigger construct (for example, a variable declaration like `const z = 3 + 4`), its result will be immediately discarded — this is usually a programmer mistake because the evaluation doesn't produce any effects.
 
 ```
 What data types can you store inside of an Array?
 
-    -
-
+    - In an array one can store various data types — strings, numbers, objects, and even other arrays. One can also mix data types in a single array.
 
 Is the people array a valid JavaScript array? If so, how can I access the values stored? If not, why?
 
-    -
-
-
-const people = [['pete', 32, 'librarian', null], ['Smith', 40, 'accountant', 'fishing:hiking:rock_climbing'], ['bill', null, 'artist', null]];
+    - It is not a valid JS array. One can create a multidimensional array but the chaining of square brackets is done improperly.
 
 List five shorthand operators for assignment in javascript and describe what they do.
 
-    -
-
+    - The simple assignment operator (=) is used to assign a value to a variable.
+    - The addition assignment operator (+=) adds the value of the right operand to a variable and assigns the result to the variable.
+    - The subtraction assignment operator (-=) subtracts the value of the right operand from a variable and assigns the result to the variable.
+    - The multiplication assignment operator (*=) multiplies a variable by the value of the right operand and assigns the result to the variable.
+    - The division assignment operator (/=) divides a variable by the value of the right operand and assigns the result to the variable.
 
 Read the code below and evaluate the last expression and explain what the result would be and why.
 
-    -
-
-
- let a = 10;
- let b = 'dog';
- let c = false;
-
- // evaluate this
- (a + c) + b;
+    - The result would be 10 as you are adding 10 to a false boolean and then adding that by a string 'dog'.
 
 Describe a real world example of when a conditional statement should be used in a JavaScript program.
 
-    -
+    -  Imagine a child being asked for help with a chore by their mother or father. The parent might say "Hey sweetheart! If you help me by going and doing the shopping, I'll give you some extra allowance so you can afford that toy you wanted."  It'd be up to us to provide a mechanism for the parent to set the shoppingDone variable to true if the child did the shopping.
+
+    let shoppingDone = false;
+    let childsAllowance;
+
+    if (shoppingDone === true) {
+        childsAllowance = 10;
+    } else {
+         childsAllowance = 5;
+    }
 
 Give an example of when a Loop is useful in JavaScript.
 
-    -
+    - A loop is useful in JS when one is needing to go through a lot of information multiple times. Most of the time when you use a loop, you will have a collection of items and want to do something with every item. It would be a lot of code and very tiring to have to write code to go through a collection one by one as opposed to a loop thats sole purpose is doing the same thing over and over again with much less code.
 
 
 (source cred: developer.mozilla.org) 
