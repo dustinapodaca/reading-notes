@@ -16,3 +16,102 @@
 >   - JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)
 >  
 ---
+```
+When should you use an unordered list in your HTML document?
+
+    - The <ul> element is for grouping a collection of items that do not have a numerical ordering, and their order in the list is meaningless.
+
+How do you change the bullet style of unordered list items?
+
+    - The bullet style is not defined in the HTML description of the page, but in its associated CSS, using the list-style-type property.
+
+When should you use an ordered list vs an unorder list in your HTML document?
+
+    - Typically, ordered list items display with a preceding marker, such as a number or letter. Use the <ol> when the order is needing to be meaningful.
+
+Describe two ways you can change the numbers on list items provided by an ordered list?
+
+    - You can use <ol type="i"> to utilize roman numeral type or simply use <ol> for a generic numbered starting from 1. You can also use a start attribute <ol start="4"> to start the list at a different number than 1.
+
+
+(source cred: developer.mozilla.org) 
+```
+### The Box Model
+
+- Everything in CSS has a box around it, and understanding these boxes is key to being able to create more complex layouts with CSS, or to align items with other items.
+
+- In CSS we broadly have two types of boxes — **block boxes** and **inline boxes**. The type refers to how the box behaves in terms of page flow and in relation to other boxes on the page. Boxes have an *inner display type* and an *outer display type*.
+
+
+```
+Describe the CSS properties of margin and padding as characters in a story. What is their role in a story titled: “The Box Model”?
+
+    - The Box Model:
+        - Once upon a time there was a border box that was under attack. "Margin" added protection and fortified the outer layer of the box while "Padding" added a buffer zone to the inside. Nobody was going to get in without a fight. All the while the contents were at peace and rested safely within.
+
+    - The End.
+
+List and describe the four parts of an HTML elements box as referred to by the box model.
+
+    - Content box: The area where your content is displayed; size it using properties like inline-size and block-size or width and height.
+    - Padding box: The padding sits around the content as white space; size it using padding and related properties.
+    - Border box: The border box wraps the content and any padding; size it using border and related properties.
+    - Margin box: The margin is the outermost layer, wrapping the content, padding, and border as whitespace between this box and other elements; size it using margin and related properties.
+
+(source cred: developer.mozilla.org) 
+```
+### Arrays
+
+- Arrays present a neat way of storing a list of data items under a single variable name.
+  - Arrays are generally described as "list-like objects"; they are basically single objects that contain multiple values stored in a list. 
+  - Array objects can be stored in variables and dealt with in much the same way as any other type of value, the difference being that we can access each value inside the list individually, and do super useful and efficient things with the list, like loop through it and do the same thing to every value.
+
+1. Arrays consist of square brackets and items that are separated by commas.
+    - i.e:  `const shopping = ['bread', 'milk', 'cheese', 'hummus', 'noodles'];`
+            `console.log(shopping);`
+
+2. In the above example, each item is a string, but in an array we can store various data types — strings, numbers, objects, and even other arrays. We can also mix data types in a single array — we do not have to limit ourselves to storing only numbers in one array, and in another only strings.
+    - i.e:  `const sequence = [1, 1, 2, 3, 5, 8, 13];`
+            `const random = ['tree', 795, [0, 1, 2]];`
+
+```
+What data types can you store inside of an Array?
+
+    -
+
+
+Is the people array a valid JavaScript array? If so, how can I access the values stored? If not, why?
+
+    -
+
+
+const people = [['pete', 32, 'librarian', null], ['Smith', 40, 'accountant', 'fishing:hiking:rock_climbing'], ['bill', null, 'artist', null]];
+
+List five shorthand operators for assignment in javascript and describe what they do.
+
+    -
+
+
+Read the code below and evaluate the last expression and explain what the result would be and why.
+
+    -
+
+
+ let a = 10;
+ let b = 'dog';
+ let c = false;
+
+ // evaluate this
+ (a + c) + b;
+
+Describe a real world example of when a conditional statement should be used in a JavaScript program.
+
+    -
+
+Give an example of when a Loop is useful in JavaScript.
+
+    -
+
+
+(source cred: developer.mozilla.org) 
+```
