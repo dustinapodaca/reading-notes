@@ -16,7 +16,7 @@
 
   - [Class Notes 02](/class-02.md)
 
-  - [Class Notes 02](/class-03.md)
+  - [Class Notes 03](/class-03.md)
 
   - [Class - 4]
 
