@@ -89,7 +89,9 @@ What data types can you store inside of an Array?
 
 Is the people array a valid JavaScript array? If so, how can I access the values stored? If not, why?
 
-    - It is not a valid JS array. One can create a multidimensional array but the chaining of square brackets is done improperly.
+    - It is not a valid JS array. One can create a multidimensional array but the chaining of square brackets is done improperly. (incorrect original answer)
+
+    - It is a valid JS array. It is a multidimensional array that store 3 arrays. You can access the values by brackets and index. people [1][2] etc.
 
 List five shorthand operators for assignment in javascript and describe what they do.
 
@@ -102,6 +104,9 @@ List five shorthand operators for assignment in javascript and describe what the
 Read the code below and evaluate the last expression and explain what the result would be and why.
 
     - The result would be 10 as you are adding 10 to a false boolean and then adding that by a string 'dog'.
+        - (10 + false) + 'dog'
+        - false = 0; true = 1 in binary. 0 is the 'falsy' value
+        - '10dog' => false is 0 and 10 gets converted to a string and attached to dog. Easier to turn 10 to a string than dog to a number. '10dog'
 
 Describe a real world example of when a conditional statement should be used in a JavaScript program.
 
