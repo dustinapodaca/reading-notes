@@ -318,3 +318,12 @@ What is the difference between the logical operator && and ||?
 
 (source cred: developer.mozilla.org)  
 ```
+
+## Things I Want to Know More About
+
+- Variables, Functions, Operators in JS
+- Memorize HTML syntax, elements, and attributes
+- Structuring metadata for SEO optimization with Google Search Engine
+- Version Control and git
+- JS syntax and structure
+

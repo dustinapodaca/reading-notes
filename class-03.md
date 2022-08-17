@@ -123,3 +123,12 @@ Give an example of when a Loop is useful in JavaScript.
 
 (source cred: developer.mozilla.org) 
 ```
+
+## Things I Want to Know More About
+
+- Variables, Functions, Operators in JS
+- Memorize HTML syntax, elements, and attributes.
+- JS syntax and structure
+- Arrays, Conditionals, Expressions and Operators.
+- CSS box modeling.
+
