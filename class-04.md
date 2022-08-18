@@ -74,7 +74,7 @@
 
     - Some functions require parameters to be specified when you are invoking them — these are values that need to be included inside the function parentheses, which it needs to do its job properly. Parameters are sometimes called arguments, properties, or even attributes.
 
-
+(source cred: developer.mozilla.org)
 ```
 
 
@@ -88,3 +88,11 @@
 
 (source cred: developer.mozilla.org)
 ```
+
+## Things I Want to Know More About
+
+- Variables, **Functions**, Operators in JS
+- **LOOPS**. (for loops)
+- JS syntax and structure
+- Arrays, Conditionals, Expressions and Operators.
+- CSS box modeling and layout.
