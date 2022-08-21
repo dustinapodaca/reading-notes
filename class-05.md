@@ -77,3 +77,11 @@
 
 (source cred: developer.mozilla.org)  
 ```
+## Things I Want to Know More About
+
+- CSS Selectors
+- **LOOPS**. (for loops)
+- Variables, **Functions**, Operators in JS
+- JS syntax and structure
+- Arrays, Conditionals, Expressions and Operators
+- CSS box modeling
