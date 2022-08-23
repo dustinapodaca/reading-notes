@@ -2,7 +2,7 @@
 
 # Code 201 Reading Notes
 
-## Class 07 Reading Notes - (source cred: developer.mozilla.org)  
+## Class 07g Reading Notes - (source cred: developer.mozilla.org)  
 
 > Why this topic matters? - It is important to continue to develop our understanding of how the internet works. HTML, CSS, and JS are the code files from which websites are primarily built. Continuing to further our understanding of the roles that each play is essential to becoming a programmer or web developer.
 >
@@ -66,9 +66,10 @@
 1. Explain prototypes and inheritance via an analogy from your previous work experience.
 NOTE: This is a very common front end developer interview question
 
-  - 
+  -  Every function in JavaScript has a prototype property that references an object. It allows one to share methods across all instances of a function. All our functionality is still the same but now instead of having to manage a separate object for all the methods, one can just use another object that comes built into the function itself, 'fucntion'.prototype.
+    * currently going to update this answer after Class 07.
 
-(source cred: developer.mozilla.org) 
+(source cred: ui.dev/beginners-guide-to-javascript-prototype)
 ```  
 
 ## Things I Want to Know More About
@@ -76,7 +77,8 @@ NOTE: This is a very common front end developer interview question
 - CSS Selectors
 - The DOM and its role in web pages.
 - JavaScript Object Literals
-- JS constructors
+- JS Constructors
+- Protoypes and Inheritance
 - **LOOPS**. (for loops)
 - Variables, **Functions**, Operators in JS
 - JS syntax and structure
