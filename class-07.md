@@ -2,7 +2,7 @@
 
 # Code 201 Reading Notes
 
-## Class 07g Reading Notes - (source cred: developer.mozilla.org)  
+## Class 07 Reading Notes - (source cred: developer.mozilla.org)  
 
 > Why this topic matters? - It is important to continue to develop our understanding of how the internet works. HTML, CSS, and JS are the code files from which websites are primarily built. Continuing to further our understanding of the roles that each play is essential to becoming a programmer or web developer.
 >
