@@ -24,7 +24,7 @@
 
   - [Class Notes 06](/class-06.md)
 
-  - [Class - 7]
+  - [Class Notes 07](/class-07.md)
 
   - [Class - 8]
 
