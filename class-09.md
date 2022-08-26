@@ -39,7 +39,7 @@
 (source cred: developer.mozilla.org)  
 ```
 
-### Learn JS - Introduction To Events.
+### Learn JS - Introduction To Events
 
 ```
 1. How would you describe events to a non-technical friend?
