@@ -30,7 +30,7 @@
 
   - [Class Notes 09](/class-09.md)
 
-  - [Class - 10]
+  - [Class Notes 10](/class-10.md)
 
   - [Class - 11]
 
