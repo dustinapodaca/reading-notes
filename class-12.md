@@ -16,3 +16,63 @@
 >   - JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)
 >  
 ---
+
+### JavaScript Canvas
+
+```
+1. What does the <canvas> allow a developer to acheive?
+
+  - 
+
+2. What is the importance of the closing `</canvas> tag?
+
+  -
+
+3. Explain what the getContext() method does.
+
+  -
+
+(source cred: javascripttutorial.net/web-apis/javascript-canvas/)
+```
+
+### Chart.js Documentation
+
+```
+1. What is Chart.js and how it can be brought into your project?
+
+  -
+
+2. List 3 different Chart types you can create using Chart.js.
+
+  -
+
+(source cred: chartjs.org/docs/latest/)
+```
+
+### Easily Create Stunning Animated Charts with Chart.js
+
+```
+1. What are some advantages to displaying data via a chart over a table?
+
+  -
+
+2. How could Chart.js aid your previously created applications visually?
+
+  -
+
+(source cred: webdesignerdepot.com/2013/11/easily-create-stunning-animated-charts-with-chart-js/)
+```
+
+
+## Things I Want to Know More About
+
+- The DOM and its role in web pages.
+- JavaScript Object Literals
+- JS Constructors
+- Prototypes and Inheritance
+- **LOOPS**. (for loops)
+- Variables, **Functions**, Operators in JS
+- JS syntax and structure
+- Arrays, Conditionals, Expressions and Operators
+- CSS Box Modeling
+- CSS Selectors
