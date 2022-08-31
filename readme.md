@@ -32,11 +32,11 @@
 
   - [Class Notes 10](/class-10.md)
 
-  - [Class Notes 10](/class-11.md)
+  - [Class Notes 11](/class-11.md)
 
-  - [Class - 12]
+  - [Class Notes 12](/class-12.md)
 
-  - [Class - 13]
+  - [Class Notes 13](/class-13.md)
 
   - [Class - 14]
 
