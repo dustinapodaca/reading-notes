@@ -22,15 +22,16 @@
 ```
 1. What does the <canvas> allow a developer to acheive?
 
-  - 
+  - The HTML5 canvas element is used to achieve the drawing of 2D graphics.
 
 2. What is the importance of the closing `</canvas> tag?
 
-  -
+  -  The <canvas> element requires the closing tag </canvas>. Any content between the opening and closing tags is fallback content that will display only if the browser doesn’t support the <canvas> element.
 
 3. Explain what the getContext() method does.
 
-  -
+  - One can use the getContext('2d') to get the 2D drawing context for drawing 2D graphics on canvas. the getContext() method that returns a render context object. The getContext() takes one argument which is the type of context. 
+  - For example, you use the "2d" to get a 2D rendering context object, which is an instance of the CanvasRenderingContext2D interface. The 2D rendering context allows you to draw shapes, text, images, and other objects.
 
 (source cred: javascripttutorial.net/web-apis/javascript-canvas/)
 ```
@@ -40,11 +41,11 @@
 ```
 1. What is Chart.js and how it can be brought into your project?
 
-  -
+  - Chart.js is a free, open-source JavaScript library for data visualization, which supports eight chart types: bar, line, area, pie, bubble, radar, polar, and scatter. It is brought into our project using a <canvas> element to then display data.
 
 2. List 3 different Chart types you can create using Chart.js.
 
-  -
+  - Chart types: bar, line, area, pie, bubble, radar, polar, and scatter.
 
 (source cred: chartjs.org/docs/latest/)
 ```
@@ -54,15 +55,14 @@
 ```
 1. What are some advantages to displaying data via a chart over a table?
 
-  -
+  - Charts are far better for displaying data visually than tables and have the added benefit that no one is ever going to press-gang them into use as a layout tool. They’re easier to look at and convey data quickly.
 
 2. How could Chart.js aid your previously created applications visually?
 
-  -
+  - It provides a visual element that previous may look mundane and unappealing.
 
 (source cred: webdesignerdepot.com/2013/11/easily-create-stunning-animated-charts-with-chart-js/)
 ```
-
 
 ## Things I Want to Know More About
 

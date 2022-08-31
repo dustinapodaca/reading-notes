@@ -38,7 +38,7 @@
 
   - [Class Notes 13](/class-13.md)
 
-  - [Class - 14]
+  - [Class Notes 14](/class-14.md)
 
   - [Class - 15]
 
