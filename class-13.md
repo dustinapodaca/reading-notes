@@ -22,22 +22,21 @@
 ```
 1. Why would a developer use local storage for a web application?
 
-  - 
+  - Storing information locally on a user’s computer is a powerful strategy for a developer who is creating something for the Web. As a developer, you need to store the state of your interface somewhere. Normally, this is done server-side, and you would check the user name to know which state to revert to. But what if you don’t want to force people to sign up?
+  - This is where local storage comes in. You would keep a key on the user’s computer and read it out when the user returns.
 
 2. What information should not be stored in local storage?
 
-  -
+  - Local storage should never be used for sensitive information such as passwords or personal information.
 
 3. Local storage can store what type of data? How would you convert it to that type before storing?
 
-  -
+  - Local storage can only store 'string' data. You can convert data by using JSON.stringify before storing.
 
-
+(source cred: smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/)
 ```
 
-
-
-## Things I Want to Know More About
+### Things I Want to Know More About
 
 - The DOM and its role in web pages.
 - JavaScript Object Literals
