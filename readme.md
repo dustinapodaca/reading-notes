@@ -40,6 +40,6 @@
 
   - [Class Notes 14](/class-14.md)
 
-  - [Class - 15]
+  - [Class Notes 15](/class-15.md)
 
 ---
