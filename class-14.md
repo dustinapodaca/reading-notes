@@ -28,6 +28,7 @@
 
   - An example of using transform is being able to put 3D elements using CSS on a webpage. Imagine a table or a graph in 3 dimensions without JS.
 
+(source cred: learn.shayhowe.com/advanced-html-css/css-transforms/)
 ```
 
 ### CSS Transitions & Animations
@@ -41,7 +42,7 @@
 
   - Transitions do a great job of building out visual interactions from one state to another, and are perfect for these kinds of single state changes. However, when more control is required, transitions need to have multiple states. In return, this is where animations pick up where transitions leave off.
 
-
+(source cred: learn.shayhowe.com/advanced-html-css/transitions-animations/)
 ```
 
 ### 8 simple CSS3 transitions that will wow your users
@@ -55,7 +56,7 @@
 
   - CSS3 is amazing. When I was young I often considered a career in computer animation. It was a dream I was never able to live out- or maybe its never too late. As I've said many times in this course- I love design. As a graphic designer I love to take pictures or logos and make them fit a certain asthetic. With CSS transitions and animations I will get to explore another aspect of design that may align with what I want to do as a career moving forward.
 
-
+(source cred: webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/)
 ```
 
 ## Things I Want to Know More About
