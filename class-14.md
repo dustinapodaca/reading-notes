@@ -60,6 +60,7 @@
 
 ## Things I Want to Know More About
 
+- CSS3 Animations and Transitions
 - The DOM and its role in web pages.
 - JavaScript Object Literals
 - JS Constructor Functions
