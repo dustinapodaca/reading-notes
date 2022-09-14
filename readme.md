@@ -8,7 +8,8 @@
 >
 > <p align="center"><i> -- Leondardo da Vinci</i></p>
 
-## -- Foundations 201 - Intermediate 301 - Advanced 401 Java <img src="https://www.svgrepo.com/show/184143/java.svg"  width="22" height="22"> --
+## &mdash; Foundations 201 - Intermediate 301 - Advanced 401 Java <img src="https://www.svgrepo.com/show/184143/java.svg"  width="22" height="22"> &mdash;
+
 
 ---
 
