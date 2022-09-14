@@ -1,10 +1,10 @@
 <img src="https://members-csforall.imgix.net/members/logos/code-fellows-logo-horizontal-2-color-black.png" width="340" height="66">  
 
-# Code 201 Reading Notes
+# Code 401 Reading Notes
 
-## Class 14 Reading Notes - (source cred: developer.mozilla.org)  
+## Class 01 Reading Notes
 
-> Why this topic matters? - It is important to continue to develop our understanding of how the internet works. HTML, CSS, and JS are the code files from which websites are primarily built. Continuing to further our understanding of the roles that each play is essential to becoming a programmer or web developer.
+> Why this topic matters? - It is important to have a base understanding of how the internet works. HTML, CSS, and JS are the code files from which websites are primarily built. Understanding the roles that each play is essential to becoming a programmer or web developer.
 >
 > - **HTML** - creates the structure i.e. the backbone.
 >   - HTML is the markup language that we use to structure and give meaning to our web content, for example defining paragraphs, headings, and data tables, or embedding images and videos in the page.
@@ -16,21 +16,3 @@
 >   - JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)
 >  
 ---
-
-
-
-### Things I Want to Know More About
-
-- CSS3 Animations and Transitions
-- The DOM and its role in web pages.
-- JavaScript Object Literals
-- JS Constructor Functions
-- Event Listeners
-- Prototypes and Inheritance
-- **LOOPS**. (for loops)
-- Variables, **Functions**, Operators in JS
-- JS syntax and structure
-- Arrays, Conditionals, Expressions and Operators
-- CSS Box Modeling
-- CSS Selectors
-- If / Else Statements
