@@ -2,9 +2,9 @@
 
 # || Software Development Reading Notes ||
 
-> *"it had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. they went out and happened to things."*
+> *"It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things."*
 >
->    -- *<cite>leondardo da vinci</cite>*
+> *<div align="right"> -- Leondardo da Vinci</div>*
 
 ## || 201 + 301 + 401 Java <img src="https://www.svgrepo.com/show/184143/java.svg"  width="22" height="22"> ||
 
