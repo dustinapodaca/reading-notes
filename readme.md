@@ -2,7 +2,9 @@
 
 # || Software Development ||
 
-> Code Fellows Reading Notes - 
+> Code Fellows Reading Notes
+  * "..it had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. they went out and happened to things."
+                      - leonardo da vinci
 
 ## || 201 + 301 + 401 Java <img src="https://www.svgrepo.com/show/184143/java.svg"  width="22" height="22"> ||
 
