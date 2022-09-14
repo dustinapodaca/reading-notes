@@ -1,10 +1,10 @@
 <img src="https://members-csforall.imgix.net/members/logos/code-fellows-logo-horizontal-2-color-black.png" width="340" height="66">  
 
-# || Software Development ||
+# || Software Development Reading Notes ||
 
-> Code Fellows Reading Notes
-  * "..it had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. they went out and happened to things."
-                      - leonardo da vinci
+> "..it had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. they went out and happened to things."
+>
+> -- <cite>leondardo da vinci</cite>
 
 ## || 201 + 301 + 401 Java <img src="https://www.svgrepo.com/show/184143/java.svg"  width="22" height="22"> ||
 
