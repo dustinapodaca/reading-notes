@@ -1,4 +1,6 @@
-<img src="https://members-csforall.imgix.net/members/logos/code-fellows-logo-horizontal-2-color-black.png" width="340" height="66">  
+<div align="center">
+  <img src="https://members-csforall.imgix.net/members/logos/code-fellows-logo-horizontal-2-color-black.png" width="340" height="66">
+</div>  
 
 # <div align="center">|| Software Development Reading Notes ||</div>
 
@@ -6,7 +8,7 @@
 >
 > *<div align="center"> -- Leondardo da Vinci</div>*
 
-## <div align="center">|| 201 + 301 + 401 Java <img src="https://www.svgrepo.com/show/184143/java.svg"  width="22" height="22"> ||</div>
+## || 201 + 301 + 401 Java <img src="https://www.svgrepo.com/show/184143/java.svg"  width="22" height="22"> ||
 
 ---
 
