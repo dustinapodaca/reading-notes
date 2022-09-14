@@ -2,7 +2,8 @@
   <img src="https://members-csforall.imgix.net/members/logos/code-fellows-logo-horizontal-2-color-black.png" width="340" height="66">
 </div>  
 
-# <div align="center">|| Software Development Reading Notes ||</div>
+
+# <p align="center">|| Software Development Reading Notes ||</p>
 
 > *"It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things."*
 >
