@@ -6,7 +6,7 @@
 
 > *"It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things."*
 >
-> <p align="center"><i> -- Leondardo da Vinci</i></p>
+> <p align="center"><i> &mdash; Leondardo da Vinci</i></p>
 
 <h2 align="center"><b>&mdash; Foundations 201 - Intermediate 301 - Advanced 401 Java <img src="https://www.svgrepo.com/show/184143/java.svg"  width="22" height="22"> &mdash;</b></h2>
 
