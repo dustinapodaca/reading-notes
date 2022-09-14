@@ -3,7 +3,7 @@
 </div>  
 
 
-# <p align="center">|| Software Development Reading Notes ||</p>
+<h1 align="center"><b>|| Software Development Reading Notes ||</b></h1>
 
 > *"It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things."*
 >
