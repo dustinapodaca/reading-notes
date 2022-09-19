@@ -10,7 +10,6 @@
 
 <h2 align="center"><b>&mdash; Foundations 201 - Intermediate 301 - Advanced 401 Java <img src="https://www.svgrepo.com/show/184143/java.svg"  width="22" height="22"> &mdash;</b></h2>
 
-
 ---
 
 > ## Table of Contents
