@@ -16,3 +16,70 @@
 >   - JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)
 >  
 ---
+
+## React Docs - Thinking in React
+
+```
+1. What is the single responsibility principle and how does it apply to components?
+  
+    - The single responsibility principle states that a component should ideally only do one thing. If it ends up growing, it should be decomposed into smaller sub-components.
+
+2. What does it mean to build a ‘static’ version of your application?
+
+    - A static version of an application is one that has no interactivity. It is built with components that only render data that is passed in as props. It is a good way to build the basic structure of an application before adding interactivity.
+
+3. Once you have a static application, what do you need to add?
+
+    - Once you have a static application, you need to add interactivity. This is done by adding state to the components.
+
+4. What are the three questions you can ask to determine if something is state?
+
+    - Is it passed in from a parent via props? If so, it probably isn’t state.
+    - Does it remain unchanged over time? If so, it probably isn’t state.
+    - Can you compute it based on any other state or props in your component? If so, it isn’t state.
+
+5. How can you identify where state needs to live?
+
+    - Identify every component that renders something based on that state.
+    - Find a common owner component (a single component above all the components that need the state in the hierarchy).
+    - Either the common owner or another component higher up in the hierarchy should own the state.
+    - If you can’t find a component where it makes sense to own the state, create a new component simply for holding the state and add it somewhere in the hierarchy above the common owner component.
+```
+
+## Higher-Order Functions
+
+```
+1. What is a “higher-order function”?
+
+  - A higher-order function is a function that either takes one or more functions as arguments, or returns a function as its result.
+
+2. Explore the greaterThan function as defined in the reading. In your own words, what is line 2 of this function doing?
+
+  - Line 2 is returning a function m that evaluates the value of n compared to m and returns true if m is greater than the value of n.
+
+3. Explain how either map or reduce operates, with regards to higher-order functions.
+
+  - Map and reduce are both higher-order functions. Map takes an array and a function as arguments and returns a new array. Reduce takes an array, a function, and an initial value as arguments and returns a single value.
+
+```
+
+## Things I Want to Know More About
+
+- Higher Order Functions
+- Ternary Operators
+- State and Props
+- React and ReactDOM
+- ES6 Classes and Constructors
+- CSS3 Animations and Transitions
+- The DOM and its role in web pages.
+- JavaScript Object Literals
+- JS Constructor Functions
+- Event Listeners
+- Prototypes and Inheritance
+- **LOOPS**. (for loops)
+- Variables, **Functions**, Operators in JS
+- JS syntax and structure
+- Arrays, Conditionals, Expressions and Operators
+- CSS Box Modeling
+- CSS Selectors
+- If / Else Statements
