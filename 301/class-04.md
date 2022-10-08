@@ -16,3 +16,58 @@
 >   - JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)
 >  
 ---
+
+## React Docs - Forms
+
+```
+1. What is a ‘Controlled Component’?
+
+  - A controlled component is a component that renders form elements and controls them by keeping the form data in the component's state.
+
+2. Should we wait to store the users responses from the form into state when they submit the form OR should we update the state with their responses as soon as they enter them? Why.
+
+  - We should update the state with their responses as soon as they enter them because it is a controlled component.
+
+How do we target what the user is entering if we have an event handler on an input field?
+
+  - We target what the user is entering by using the event.target.value property.
+
+```
+
+## The Conditional (Ternary) Operator Explained
+
+```
+1. Why would we use a ternary operator?
+
+  - We would use a ternary operator to simplify an if/else statement.
+
+2. Rewrite the following statement using a ternary statement:
+
+      if(x===y){
+        console.log(true);
+      } else {
+        console.log(false);
+      }
+
+    - x === y ? console.log(true) : console.log(false);
+```
+
+## Things I Want to Know More About
+
+- Ternary Operators
+- State and Props
+- React and ReactDOM
+- ES6 Classes and Constructors
+- CSS3 Animations and Transitions
+- The DOM and its role in web pages.
+- JavaScript Object Literals
+- JS Constructor Functions
+- Event Listeners
+- Prototypes and Inheritance
+- **LOOPS**. (for loops)
+- Variables, **Functions**, Operators in JS
+- JS syntax and structure
+- Arrays, Conditionals, Expressions and Operators
+- CSS Box Modeling
+- CSS Selectors
+- If / Else Statements
