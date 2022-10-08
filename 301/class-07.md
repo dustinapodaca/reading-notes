@@ -2,7 +2,7 @@
 
 # Code 301 Reading Notes
 
-## Class 05 Reading Notes
+## Class 07 Reading Notes
 
 > Why this topic matters? - It is important to have a deeper understanding of how the internet works. HTML, CSS, and JS are the code files from which websites are primarily built. Understanding the roles that each play is essential to becoming a programmer or web developer. One can build upon those basics by learning other frameworks and libraies such as React.js to further implement more dymanic user interfaces for an overall better experience.
 >
