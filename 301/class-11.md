@@ -96,3 +96,27 @@
   - The disadvantage of NoSQL databases is that they are not as mature as SQL databases and they are not as widely used.
 
 ```
+
+## Things I Want to Know More About
+
+- NoSQL & SQL Databases
+- Node JS
+- REST APIs
+- Higher Order Functions
+- Ternary Operators
+- State and Props
+- React and ReactDOM
+- ES6 Classes and Constructors
+- CSS3 Animations and Transitions
+- The DOM and its role in web pages.
+- JavaScript Object Literals
+- JS Constructor Functions
+- Event Listeners
+- Prototypes and Inheritance
+- **LOOPS**. (for loops)
+- Variables, **Functions**, Operators in JS
+- JS syntax and structure
+- Arrays, Conditionals, Expressions and Operators
+- CSS Box Modeling
+- CSS Selectors
+- If / Else Statements
