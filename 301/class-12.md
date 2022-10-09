@@ -86,3 +86,27 @@
   - The difference between a status 200 and a status 201 is that a status 200 means that the request has succeeded and a status 201 means that a request has succeeded and has led to the creation of a resource.
 
 ```
+
+## Things I Want to Know More About
+
+- NoSQL & SQL Databases
+- Node JS
+- REST APIs
+- Higher Order Functions
+- Ternary Operators
+- State and Props
+- React and ReactDOM
+- ES6 Classes and Constructors
+- CSS3 Animations and Transitions
+- The DOM and its role in web pages.
+- JavaScript Object Literals
+- JS Constructor Functions
+- Event Listeners
+- Prototypes and Inheritance
+- **LOOPS**. (for loops)
+- Variables, **Functions**, Operators in JS
+- JS syntax and structure
+- Arrays, Conditionals, Expressions and Operators
+- CSS Box Modeling
+- CSS Selectors
+- If / Else Statements
