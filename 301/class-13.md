@@ -17,3 +17,57 @@
 >  
 ---
 
+## CRUD Basics
+
+```
+1. Which HTTP method would you use to update a record through an API?
+
+  - You would use the PUT method.
+
+2. Which REST methods require an ID parameter?
+
+  - The GET, PUT, and DELETE methods require an ID parameter.
+
+```
+
+## Speed Coding: Building a CRUD API (Watch a Twitch streamer code an Express API in 20 minutes!)
+
+```
+1. What’s the relationship between REST and CRUD?
+
+  - REST is a set of guidelines for how to structure your API. CRUD is a set of guidelines for how to structure your database.
+
+2. If you had to describe the process of creating a RESTful API in 5 steps, what would they be?
+
+  - 1. Define the routes.
+  - 2. Define the methods.
+  - 3. Define the parameters.
+  - 4. Define the responses.
+  - 5. Define the errors.
+
+```
+
+## Things I Want to Know More About
+
+- CRUD
+- NoSQL & SQL Databases
+- Node JS
+- REST APIs
+- Higher Order Functions
+- Ternary Operators
+- State and Props
+- React and ReactDOM
+- ES6 Classes and Constructors
+- CSS3 Animations and Transitions
+- The DOM and its role in web pages.
+- JavaScript Object Literals
+- JS Constructor Functions
+- Event Listeners
+- Prototypes and Inheritance
+- **LOOPS**. (for loops)
+- Variables, **Functions**, Operators in JS
+- JS syntax and structure
+- Arrays, Conditionals, Expressions and Operators
+- CSS Box Modeling
+- CSS Selectors
+- If / Else Statements
