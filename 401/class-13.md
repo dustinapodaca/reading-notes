@@ -4,36 +4,44 @@
 
 ## Class 13 Reading Notes
 
-### ES6 Classes
+### Socket.io Chat Example
 
 ```
-1. Classes are a template for creating ____.
-   - Classes are a template for creating objects.
-2. Can a class declaration be hoisted?
-   - No, class declarations are not hoisted (i.e. moved to the top of the code).
-3. How would you describe a constructor and contextual “this” to a non-technical friend?
-   - A constructor is a special method in a class that is used to create and initialize an object created from that class. The "this" keyword refers to the object that the constructor is creating.
+1. Explain to a non-technical recruiter what the Chat Example (above) does.
+   - The Chat Example is a simple chat application that allows multiple users to communicate with each other in real-time. It uses Socket.IO to establish a connection between the client and the server, and to send and receive messages between them.
+
+2. What proof of life are we getting on the backend from the above app?
+   - On the backend, we can see proof of life in the form of log messages that are printed to the console whenever a client connects, disconnects, or sends a message. This helps us to verify that the application is functioning correctly and to identify any potential issues.
+
+3. Socket.IO gives us the i0.emit() method to send an event to everyone. What flag would you use if you want to send a message to everyone except for a certain emitting socket?
+   - To send a message to everyone except for the emitting socket, you would use the `io.to(room).emit()` method, where `room` is the name of the room that you want to broadcast to.
 
 ```
 
-### Using Express Routing
+### Rooms
 
 ```
-1. Within Express, what does routing refer to?
-   - In the context of Express, routing refers to the process of defining and handling the different endpoints (i.e. URL paths) in an application.
-2. What is the difference between a route path and a route method?
-   - A route path is the URL pattern that the route is associated with, while a route method is the HTTP verb (e.g. GET, POST, PUT, DELETE) that is used to access the route.
-3. When is it appropriate to add next as a parameter to a route handler and what must you do if next has been passed to your middleware as a parameter?
-   - You should add the `next` parameter to a route handler when you want to pass control to the next middleware function in the stack. If `next` has been passed to your middleware as a parameter, you should call it to pass control to the next middleware function.
+1. What is a room and how might a room be useful?
+   - A room is a virtual space within a Socket.IO application that allows multiple clients to communicate with each other in a more organized and controlled way. Rooms can be useful for creating separate channels or groups within the chat application, or for limiting the scope of certain events or messages.
+
+2. How do you join a room?
+   - To join a room, you can use the `socket.join(room)` method on the client side, or the `socket.join(room)` method on the server side.
+
+3. how do you leave a room?
+   - To leave a room, you can use the `socket.leave(room)` method on the client side, or the `socket.leave(room)` method on the server side.
+
 ```
 
-### Express Routing
+### Namespaces
 
 ```
-1. What is an Express Router?
-   - An Express Router is an isolated instance of middleware and routes that can be mounted on an Express app.
-2. By what mean do we initialize express.Router() in an express server?
-   - To initialize an Express Router in an Express server, you can use the `express.Router()` method.
-3. What do we use route middleware for?
-   - Route middleware is used to perform tasks such as validating input, authenticating users, or checking for permissions before a request is handled by a route handler.
+1. What is a Namespace and what does it allow you to do?
+   - A namespace is a way to divide a Socket.IO application into multiple, isolated parts that can communicate with each other. Namespaces allow you to create multiple independent Socket.IO connections within a single application, each with its own set of events and functionality.
+
+2. Each namespace potentially has its own what? (hint: 3 things)
+   - Each namespace potentially has its own set of clients, rooms, and events.
+
+3. Discuss a possible use case for separate namespaces.
+   - One possible use case for separate namespaces is to create different "channels" within the same application for different groups of users. For example, you could create a namespace for employees, a namespace for customers, and a namespace for administrators, each with its own set of events and functionality. This would allow you to keep these groups isolated from each other and to provide a more customized experience for each group. Another use case could be to create different namespaces for different parts of the application, such as a namespace for chat functionality, a namespace for file sharing, and a namespace for real-time data visualization. This would allow you to keep these different features organized and independent from each other.
+
 ```
