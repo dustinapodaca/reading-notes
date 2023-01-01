@@ -2,7 +2,7 @@
 
 # Code 401 Reading Notes
 
-## Class 03 Reading Notes
+## Class 04 Reading Notes
 
 ### ES6 Classes
 

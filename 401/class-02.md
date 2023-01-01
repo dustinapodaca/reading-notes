@@ -4,20 +4,7 @@
 
 ## Class 02 Reading Notes
 
-> Why this topic matters? - It is important to have a base understanding of how the internet works. HTML, CSS, and JS are the code files from which websites are primarily built. Understanding the roles that each play is essential to becoming a programmer or web developer.
->
-> - **HTML** - creates the structure i.e. the backbone.
->   - HTML is the markup language that we use to structure and give meaning to our web content, for example defining paragraphs, headings, and data tables, or embedding images and videos in the page.
-> - **CSS** - stylizes the website or makes it look good.
->  
->   - CSS is a language of style rules that we use to apply styling to our HTML content, for example setting background colors and fonts, and laying out our content in multiple columns.
-> - **JavaScript** - increases interactivity; handles more complex functions and features and enhances site functionality.
->  
->   - JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)
->  
----
-
-## An Introduction to NodeJS and Express
+### An Introduction to NodeJS and Express
 
 ```
 1. Explain middleware, answer as though I were a non-technical recruiter.
@@ -30,7 +17,7 @@
    - A module is a self-contained piece of code that performs a specific task or function. Modularity is useful because it allows developers to divide their code into smaller, more manageable units that can be easily reused or combined with other code to create larger applications.
 ```
 
-## What is NPM?
+### What is NPM?
 
 ```
 1. What version of npm are you running on your machine?
@@ -41,7 +28,7 @@
 
 ```
 
-## What is TDD?
+### What is TDD?
 
 ```
 1. Explain why tests are important. Please explain as though I were your non technical elder.
@@ -53,7 +40,7 @@
 
 ```
 
-## CI/CD
+### CI/CD
 
 ```
 1. What are three benefits of Continuous Integration?
@@ -64,4 +51,3 @@
    - GitHub is a version control and collaboration platform for developers. In the context of CI/CD, GitHub can be used to store and manage the codebase for a project, and to set up automated workflows that trigger builds, tests, and deployments whenever code changes are pushed to the repository. This allows teams to continuously integrate, test, and deploy their code, without having to manually perform these tasks.
 
 ```
-
