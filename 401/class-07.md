@@ -4,36 +4,38 @@
 
 ## Class 07 Reading Notes
 
-### ES6 Classes
+### Intro to JWT
 
 ```
-1. Classes are a template for creating ____.
-   - Classes are a template for creating objects.
-2. Can a class declaration be hoisted?
-   - No, class declarations are not hoisted (i.e. moved to the top of the code).
-3. How would you describe a constructor and contextual “this” to a non-technical friend?
-   - A constructor is a special method in a class that is used to create and initialize an object created from that class. The "this" keyword refers to the object that the constructor is creating.
+1. What is a JSON Web Token (JWT)?
+   - A JSON Web Token (JWT) is a JSON object that is used to securely transmit information between parties. It can be signed using a secret or public/private key pair, and can be verified using the corresponding secret or key.
+2. When should we use JSON Web Tokens?
+   - JSON Web Tokens should be used when there is a need to transmit information securely between two parties, and the information being transmitted is not sensitive enough to warrant the use of a more secure protocol.
+3. Claims are expected in which structural component of a JWT?
+   - Claims are expected in the second structural component of a JWT, which is the payload.
 
 ```
 
-### Using Express Routing
+### Are JWTs Secure?
 
 ```
-1. Within Express, what does routing refer to?
-   - In the context of Express, routing refers to the process of defining and handling the different endpoints (i.e. URL paths) in an application.
-2. What is the difference between a route path and a route method?
-   - A route path is the URL pattern that the route is associated with, while a route method is the HTTP verb (e.g. GET, POST, PUT, DELETE) that is used to access the route.
-3. When is it appropriate to add next as a parameter to a route handler and what must you do if next has been passed to your middleware as a parameter?
-   - You should add the `next` parameter to a route handler when you want to pass control to the next middleware function in the stack. If `next` has been passed to your middleware as a parameter, you should call it to pass control to the next middleware function.
-```
-
-### Express Routing
+1. If I get a JWT and I can decode the payload, how can we call that secure?
+   - A JWT can still be considered secure even if the payload can be decoded, as long as the signature of the JWT has not been tampered with. The signature is created using a secret known only to the issuer of the JWT and the recipient, and is used to verify the authenticity of the JWT.
+2. If sending a JWT, what must sender and receiver both know? Hint, it’s appended in the signature.
+   - If sending a JWT, both the sender and the receiver must know the secret used to create the signature. The secret is appended to the signature in order to verify the authenticity of the JWT.
+3. Explain how concatenated content and secret can be sent and received securely to a non-technical recruiter.
+   - To send and receive concatenated content and secret securely, the sender would create a signature using a secret known only to the sender and the recipient. The signature would be created by concatenating the content and the secret, and applying a one-way hashing function to the result. The sender would then transmit the concatenated content and the signature to the recipient, who would use the same secret to verify the authenticity of the transmitted data. If the recipient is able to successfully verify the signature, they can be confident that the transmitted data has not been tampered with and is authentic.
 
 ```
-1. What is an Express Router?
-   - An Express Router is an isolated instance of middleware and routes that can be mounted on an Express app.
-2. By what mean do we initialize express.Router() in an express server?
-   - To initialize an Express Router in an Express server, you can use the `express.Router()` method.
-3. What do we use route middleware for?
-   - Route middleware is used to perform tasks such as validating input, authenticating users, or checking for permissions before a request is handled by a route handler.
+
+### JWTs Explained
+
+```
+1. Why use JWT?
+   - JWTs are used to securely transmit information between parties. They can be signed using a secret or public/private key pair, and can be verified using the corresponding secret or key.
+2. JWT is Compact and self-contained. Describe how this is useful to a non-technical friend.
+   - JWTs are compact and self-contained because they contain all the information needed to transmit data securely in a single, small string. This makes them easy to transmit and useful for storing data on the client side, such as in a cookie or local storage.
+3. What are the three components (the structure) of a JWT signature?
+   - The three components of a JWT signature are the header, the payload, and the signature. The header typically consists of information about how the JWT is encoded. The payload contains the claims, or statements about an entity (typically, the user) and additional data. The signature is used to verify that the sender of the JWT is who it claims to be and to ensure that the message wasn't changed along the way.
+
 ```
