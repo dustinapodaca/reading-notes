@@ -4,36 +4,44 @@
 
 ## Class 08 Reading Notes
 
-### ES6 Classes
+### 5 Steps to RBAC
 
 ```
-1. Classes are a template for creating ____.
-   - Classes are a template for creating objects.
-2. Can a class declaration be hoisted?
-   - No, class declarations are not hoisted (i.e. moved to the top of the code).
-3. How would you describe a constructor and contextual “this” to a non-technical friend?
-   - A constructor is a special method in a class that is used to create and initialize an object created from that class. The "this" keyword refers to the object that the constructor is creating.
+1. What is Role Based Access Control (RBAC) and why do we care?
+   - RBAC is a method of controlling access to resources or operations based on the roles of users within an organization. It is important because it allows organizations to set fine-grained access controls based on the roles of users, rather than having to manage permissions for each user individually. This can make it easier to manage access to resources and operations, especially in large organizations with many users.
+2. Describe a Role/Permission hierarchy that you might implement using RBAC.
+   - One example of a Role/Permission hierarchy that could be implemented using RBAC might be:
+     1. Administrative roles: These roles would have access to all resources and operations within the organization. Examples might include system administrators or top-level executives.
+     2. Managerial roles: These roles would have access to a subset of resources and operations within the organization. Examples might include department managers or team leaders.
+     3. User roles: These roles would have access to a limited set of resources and operations within the organization. Examples might include regular employees or contractors.
+     4. Guest roles: These roles would have access to a very limited set of resources and operations within the organization, or possibly no access at all. Examples might include clients or partners.
+3. What approach might you take to implement RBAC?
+   - To implement RBAC, you would need to first define the roles and permissions within your organization. This might involve creating a hierarchy of roles, as described above, and defining the resources and operations that each role has access to. You would then need to set up a system for managing and enforcing these roles and permissions, such as a user management system or an access control system. This might involve creating user accounts and assigning roles to each user, as well as setting up rules and policies for granting and revoking access to resources and operations.
 
 ```
 
-### Using Express Routing
+### Wiki - RBAC
 
 ```
-1. Within Express, what does routing refer to?
-   - In the context of Express, routing refers to the process of defining and handling the different endpoints (i.e. URL paths) in an application.
-2. What is the difference between a route path and a route method?
-   - A route path is the URL pattern that the route is associated with, while a route method is the HTTP verb (e.g. GET, POST, PUT, DELETE) that is used to access the route.
-3. When is it appropriate to add next as a parameter to a route handler and what must you do if next has been passed to your middleware as a parameter?
-   - You should add the `next` parameter to a route handler when you want to pass control to the next middleware function in the stack. If `next` has been passed to your middleware as a parameter, you should call it to pass control to the next middleware function.
+1. If Authentication is “you are who you say you are,” what is Authorization?
+  - Authorization is the process of granting or denying access to certain resources or actions based on whether the user is authorized to perform them.
+2. Name three primary rules defined for RBAC.
+  - 1) Role Assignment: A user is assigned to one or more roles, and the roles are granted certain permissions to access resources or perform actions. 
+  - 2) Role Activation: A user's active role(s) are used to determine what resources and actions they are authorized to access or perform.
+  - 3) Role Authorization: The system checks whether the user's active role(s) are authorized to access the requested resources or perform the requested actions.
+3. Describe RBAC to a non-technical friend.
+  - RBAC is a method of controlling access to computer systems or networks based on the roles of individual users within an organization. It works by assigning permissions to different roles, and then assigning users to one or more of those roles. This way, you can control what actions users are allowed to perform based on their role within the organization, rather than having to manage permissions for each individual user.
+
 ```
 
-### Express Routing
+### Videos - RBAC
 
 ```
-1. What is an Express Router?
-   - An Express Router is an isolated instance of middleware and routes that can be mounted on an Express app.
-2. By what mean do we initialize express.Router() in an express server?
-   - To initialize an Express Router in an Express server, you can use the `express.Router()` method.
-3. What do we use route middleware for?
-   - Route middleware is used to perform tasks such as validating input, authenticating users, or checking for permissions before a request is handled by a route handler.
+1. What Are access rights Associated with? The User? or The Role? Explain.
+  - Access rights are associated with roles.
+2. Access Rights, or Authorization, is activated after a user successfully does what?
+  - Access rights, or authorization, is activated after a user successfully authenticates.
+3. Explain how RBAC might benefit a business.
+  - RBAC can help a business to better manage access to its systems and data, by allowing the organization to define roles and permissions in a flexible and granular way. This can make it easier to control who has access to what resources and actions, and can reduce the risk of unauthorized access or misuse of company resources. Additionally, using RBAC can make it easier to onboard new employees and manage access rights as employees change roles within the organization.
+
 ```
