@@ -4,36 +4,37 @@
 
 ## Class 06 Reading Notes
 
-### ES6 Classes
+### Securing Passwords
 
 ```
-1. Classes are a template for creating ____.
-   - Classes are a template for creating objects.
-2. Can a class declaration be hoisted?
-   - No, class declarations are not hoisted (i.e. moved to the top of the code).
-3. How would you describe a constructor and contextual “this” to a non-technical friend?
-   - A constructor is a special method in a class that is used to create and initialize an object created from that class. The "this" keyword refers to the object that the constructor is creating.
+1. Explain to a non-technical friend how you would safely hash and store a password.
+   - To safely hash and store a password, you would first apply a one-way hashing function to the password. This creates a hash value that is a fixed-size, encrypted representation of the password, which cannot be easily reversed to obtain the original password. You would then store the hash value in a secure database, rather than the actual password. When a user tries to log in, you would re-apply the same hashing function to the password they enter, and compare the resulting hash value to the one stored in the database. If they match, the user is authenticated.
+2. What is Bcrypt?
+   - Bcrypt is a password hashing function designed to be computationally expensive to execute, in order to make it more difficult for attackers to crack hashed passwords.
+3. Why might you use something like Bcrypt?
+   - You might use something like Bcrypt to protect the security of user passwords by making it more difficult for attackers to crack them.
 
 ```
 
-### Using Express Routing
+### Basic Authentication
 
 ```
-1. Within Express, what does routing refer to?
-   - In the context of Express, routing refers to the process of defining and handling the different endpoints (i.e. URL paths) in an application.
-2. What is the difference between a route path and a route method?
-   - A route path is the URL pattern that the route is associated with, while a route method is the HTTP verb (e.g. GET, POST, PUT, DELETE) that is used to access the route.
-3. When is it appropriate to add next as a parameter to a route handler and what must you do if next has been passed to your middleware as a parameter?
-   - You should add the `next` parameter to a route handler when you want to pass control to the next middleware function in the stack. If `next` has been passed to your middleware as a parameter, you should call it to pass control to the next middleware function.
-```
-
-### Express Routing
+1. What is Basic Authentication?
+   - Basic Authentication is a simple HTTP authentication scheme that involves sending a user's credentials (e.g. username and password) in an HTTP header with each request to a server.
+2. What properties are necessary in the header of a Basic Auth request?
+   - The properties necessary in the header of a Basic Auth request are: `Authorization`, `username`, and `password`.
+3. How are username:password in Basic Auth encoded?
+   - In Basic Auth, the `username:password` combination is encoded in base64.
 
 ```
-1. What is an Express Router?
-   - An Express Router is an isolated instance of middleware and routes that can be mounted on an Express app.
-2. By what mean do we initialize express.Router() in an express server?
-   - To initialize an Express Router in an Express server, you can use the `express.Router()` method.
-3. What do we use route middleware for?
-   - Route middleware is used to perform tasks such as validating input, authenticating users, or checking for permissions before a request is handled by a route handler.
+
+### OWASP Auth Cheat Sheet
+
+```
+1. Define the authentication process to a non-technical recruiter.
+   - The authentication process is the process of verifying the identity of a user or device, typically by requiring them to provide some form of credentials (e.g. a username and password).
+2. How should your error messaging respond (both HTTP and HTML)? Why?
+   - Your error messaging should be clear and concise, and should not reveal any sensitive information (e.g. the actual reason for the error). In HTML, you should use appropriate status codes (e.g. 401 for authentication failures) and include any necessary error messages in the response body. This helps to prevent attackers from gaining unauthorized access or information, and helps to maintain the security of the system.
+3. Bookmark this link also and consider OWASP fundamentals any time you interact with authentication. Applications developed with security in mind from inception have fewer vulnerabilities throughout their lifecycle.
+
 ```
